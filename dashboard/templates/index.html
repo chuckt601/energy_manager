@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Energy Manager Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { color: #2c3e50; }
+    .data-box { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Energy Manager Dashboard</h1>
+
+  <div class="data-box">
+    <h2>CAN Data</h2>
+    <pre id="can-data">Loading...</pre>
+  </div>
+
+  <div class="data-box">
+    <h2>Wallbox Data</h2>
+    <pre id="wallbox-data">Loading...</pre>
+  </div>
+
+  <div class="data-box" style="background-color: #f9f9f9;">
+    <h2>Status</h2>
+    <p id="connection-status">Connecting...</p>
+    <p id="last-updated">Last updated: never</p>
+  </div>
+
+<script>
+  function formatTimestamp(date) {
+    return date.toLocaleString(); // You can customize the format if needed
+  }
+  async function fetchData() {
+    try {
+      const response = await fetch("/status");
+      if (!response.ok) throw new Error("Server error");
+
+      const data = await response.json();
+      //console.log("Fetched data:", data);
+
+      document.getElementById("can-data").innerText = JSON.stringify(data.can, null, 2);
+      document.getElementById("wallbox-data").innerText = JSON.stringify(data.wallbox, null, 2);
+
+      document.getElementById("connection-status").innerText = "Connected";
+      document.getElementById("connection-status").style.color = "green";
+      const now = new Date();
+      document.getElementById("last-updated").innerText = `Last updated: ${formatTimestamp(now)}`;
+    } catch (err) {
+      console.error("Failed to fetch data:", err);
+      document.getElementById("connection-status").innerText = "Disconnected";
+      document.getElementById("connection-status").style.color = "red";
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    fetchData(); // initial call
+    setInterval(fetchData, 5000); // update every 5 seconds
+  });
+</script>
+
+</body>
+</html>
+
+

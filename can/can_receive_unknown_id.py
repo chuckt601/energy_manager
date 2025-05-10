@@ -1,0 +1,36 @@
+import os
+import can
+import sys
+
+os.system('sudo ip link set can0 type can bitrate 500000 listen-only on')
+os.system('sudo ifconfig can0 up') # Enable can0 
+
+#bus = can.interface.Bus(channel = 'can0', bustype = 'socketcan_ctypes')# socketcan_native
+bus = can.interface.Bus(channel='can0', bustype='socketcan')
+state = "initial"
+data = [0] * 24
+number=0
+known_ids = [0x4803F, 0x80803F, 0x803F01, 0x40803F, 0x20803F, 0x23F01]
+#param = sys.argv[1]
+
+while 1:
+    message = bus.recv(10.0)
+    if message is not None:
+       
+        if message.arbitration_id not in known_ids:  
+                #print (message)
+                print(f"ID: {hex(message.arbitration_id)}, Data: {[hex(b) for b in message.data]}")
+                for i in range(len(message.data)):
+                   data[i]=message.data[i]
+                #state="C6"
+                number=0
+            
+            
+           
+
+            
+
+    #if message is None:
+    #    print('Timeout occurred, no message received.')
+
+    #os.system('sudo ifconfig can0 down')  #Disable can0
