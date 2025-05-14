@@ -11,3 +11,75 @@
 2025-05-10 10:44:47,584 - INFO - Wallbox code 401, Token expired, re-authenticating...
 2025-05-10 11:07:14,766 - INFO - Wallbox code 401, Token expired, re-authenticating...
 2025-05-10 13:04:26,240 - INFO - Wallbox code 401, Token expired, re-authenticating...
+2025-05-10 13:57:15,603 - INFO - Can data: {'home_battery_charge_rate': 0.0125, 'soc': 91.87039999999996}
+2025-05-10 13:57:15,604 - INFO - Wallbox data: {}
+2025-05-10 13:57:20,607 - INFO - Can data: {'home_battery_charge_rate': 0.012, 'soc': 91.87039999999996}
+2025-05-10 13:57:20,607 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:25,610 - INFO - Can data: {'home_battery_charge_rate': 0.0125, 'soc': 91.87039999999996}
+2025-05-10 13:57:25,612 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:30,615 - INFO - Can data: {'home_battery_charge_rate': 0.0115, 'soc': 91.87039999999996}
+2025-05-10 13:57:30,616 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:35,618 - INFO - Can data: {'home_battery_charge_rate': 0.0145, 'soc': 91.87039999999996}
+2025-05-10 13:57:35,619 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:40,620 - INFO - Can data: {'home_battery_charge_rate': 0.009, 'soc': 91.87039999999996}
+2025-05-10 13:57:40,621 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:45,622 - INFO - Can data: {'home_battery_charge_rate': 0.014, 'soc': 91.87039999999996}
+2025-05-10 13:57:45,623 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:50,625 - INFO - Can data: {'home_battery_charge_rate': 0.0155, 'soc': 91.87039999999996}
+2025-05-10 13:57:50,627 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:57:55,628 - INFO - Can data: {'home_battery_charge_rate': 0.0155, 'soc': 91.87039999999996}
+2025-05-10 13:57:55,629 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:00,630 - INFO - Can data: {'home_battery_charge_rate': 0.0105, 'soc': 91.87039999999996}
+2025-05-10 13:58:00,631 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:05,633 - INFO - Can data: {'home_battery_charge_rate': 0.014, 'soc': 91.87039999999996}
+2025-05-10 13:58:05,634 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:10,638 - INFO - Can data: {'home_battery_charge_rate': 0.0125, 'soc': 91.87039999999996}
+2025-05-10 13:58:10,640 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:15,642 - INFO - Can data: {'home_battery_charge_rate': 0.0085, 'soc': 91.87039999999996}
+2025-05-10 13:58:15,643 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:20,644 - INFO - Can data: {'home_battery_charge_rate': 0.012, 'soc': 91.87039999999996}
+2025-05-10 13:58:20,645 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:25,647 - INFO - Can data: {'home_battery_charge_rate': 0.0105, 'soc': 91.87039999999996}
+2025-05-10 13:58:25,649 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:30,651 - INFO - Can data: {'home_battery_charge_rate': 0.0085, 'soc': 91.87039999999996}
+2025-05-10 13:58:30,652 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:35,654 - INFO - Can data: {'home_battery_charge_rate': 0.0115, 'soc': 91.87039999999996}
+2025-05-10 13:58:35,655 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:40,656 - INFO - Can data: {'home_battery_charge_rate': 0.014, 'soc': 91.87039999999996}
+2025-05-10 13:58:40,657 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:45,658 - INFO - Can data: {'home_battery_charge_rate': 0.012, 'soc': 91.87039999999996}
+2025-05-10 13:58:45,659 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:50,660 - INFO - Can data: {'home_battery_charge_rate': 0.0095, 'soc': 91.87039999999996}
+2025-05-10 13:58:50,661 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:58:55,662 - INFO - Can data: {'home_battery_charge_rate': 0.0135, 'soc': 91.87039999999996}
+2025-05-10 13:58:55,663 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:00,664 - INFO - Can data: {'home_battery_charge_rate': 0.016, 'soc': 91.87039999999996}
+2025-05-10 13:59:00,665 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:05,666 - INFO - Can data: {'home_battery_charge_rate': 0.0085, 'soc': 91.87039999999996}
+2025-05-10 13:59:05,667 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:10,669 - INFO - Can data: {'home_battery_charge_rate': 0.0125, 'soc': 91.87039999999996}
+2025-05-10 13:59:10,670 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:15,673 - INFO - Can data: {'home_battery_charge_rate': 0.008, 'soc': 91.87039999999996}
+2025-05-10 13:59:15,674 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:20,676 - INFO - Can data: {'home_battery_charge_rate': 0.015, 'soc': 91.87039999999996}
+2025-05-10 13:59:20,678 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:25,680 - INFO - Can data: {'home_battery_charge_rate': 0.0105, 'soc': 91.87039999999996}
+2025-05-10 13:59:25,681 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:30,682 - INFO - Can data: {'home_battery_charge_rate': 0.011, 'soc': 91.87039999999996}
+2025-05-10 13:59:30,683 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:35,684 - INFO - Can data: {'home_battery_charge_rate': 0.013, 'soc': 91.87039999999996}
+2025-05-10 13:59:35,685 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:40,686 - INFO - Can data: {'home_battery_charge_rate': 0.0105, 'soc': 91.87039999999996}
+2025-05-10 13:59:40,687 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:45,688 - INFO - Can data: {'home_battery_charge_rate': 0.01, 'soc': 91.87039999999996}
+2025-05-10 13:59:45,689 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:50,691 - INFO - Can data: {'home_battery_charge_rate': 0.015, 'soc': 91.87039999999996}
+2025-05-10 13:59:50,691 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 13:59:55,693 - INFO - Can data: {'home_battery_charge_rate': 0.0115, 'soc': 91.87039999999996}
+2025-05-10 13:59:55,695 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 14:00:00,699 - INFO - Can data: {'home_battery_charge_rate': 0.0125, 'soc': 91.87039999999996}
+2025-05-10 14:00:00,701 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 14:00:05,702 - INFO - Can data: {'home_battery_charge_rate': 0.0115, 'soc': 91.87039999999996}
+2025-05-10 14:00:05,703 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
+2025-05-10 14:00:10,709 - INFO - Can data: {'home_battery_charge_rate': 0.015, 'soc': 91.87039999999996}
+2025-05-10 14:00:10,711 - INFO - Wallbox data: {'car_charger_status code': 181, 'car_charger_status': 'WAITING', 'current_car_charging_rate': 6}
