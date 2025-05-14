@@ -3285,3 +3285,1705 @@
 2025-05-14 07:09:54,265 - INFO - car : ROC=1.44, Status = idle
 2025-05-14 07:09:54,267 - INFO - Transitioning to state: night-not_full-idle (mode: solar)
 2025-05-14 07:10:18,021 - INFO - Received /status request
+2025-05-14 07:36:11,875 - WARNING - Starting Energy Manager
+2025-05-14 07:36:17,994 - INFO - Received /status request
+2025-05-14 07:36:43,823 - INFO - Received /status request
+2025-05-14 07:36:45,887 - INFO - Received /status request
+2025-05-14 07:36:50,477 - INFO - Received /status request
+2025-05-14 07:36:55,519 - INFO - Received /status request
+2025-05-14 07:37:00,471 - INFO - Received /status request
+2025-05-14 07:37:06,193 - INFO - Received /status request
+2025-05-14 07:37:17,969 - INFO - Received /status request
+2025-05-14 07:37:47,912 - INFO - New Charging Mode = solar
+2025-05-14 07:37:47,914 - INFO - home: ROC=0.163, SOC=31.505600000000015
+2025-05-14 07:37:47,916 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:37:47,919 - INFO - Transitioning to state: night-not_full-idle (mode: solar)
+2025-05-14 07:38:18,021 - INFO - Received /status request
+2025-05-14 07:39:17,923 - INFO - home: ROC=0.2015, SOC=31.62349999999998
+2025-05-14 07:39:17,924 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:39:17,976 - INFO - Received /status request
+2025-05-14 07:40:18,037 - INFO - Received /status request
+2025-05-14 07:40:47,927 - INFO - home: ROC=0.1765, SOC=31.62349999999998
+2025-05-14 07:40:47,928 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:41:17,977 - INFO - Received /status request
+2025-05-14 07:42:17,930 - INFO - home: ROC=0.198, SOC=31.62349999999998
+2025-05-14 07:42:17,931 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:42:18,005 - INFO - Received /status request
+2025-05-14 07:43:17,961 - INFO - Received /status request
+2025-05-14 07:43:47,935 - INFO - home: ROC=0.236, SOC=31.741400000000056
+2025-05-14 07:43:47,936 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:45:17,942 - INFO - home: ROC=0.276, SOC=31.741400000000056
+2025-05-14 07:45:17,944 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:46:47,950 - INFO - home: ROC=0.276, SOC=31.741400000000056
+2025-05-14 07:46:47,951 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:48:17,956 - INFO - home: ROC=0.219, SOC=31.85930000000002
+2025-05-14 07:48:17,956 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:49:47,960 - INFO - home: ROC=0.259, SOC=31.85930000000002
+2025-05-14 07:49:47,960 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:51:15,645 - WARNING - Wallbox code 401, Token expired, re-authenticating...
+2025-05-14 07:51:18,103 - INFO - home: ROC=0.2655, SOC=31.977199999999982
+2025-05-14 07:51:18,103 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:52:48,108 - INFO - home: ROC=0.2985, SOC=31.977199999999982
+2025-05-14 07:52:48,111 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:54:18,119 - INFO - home: ROC=0.334, SOC=32.09510000000006
+2025-05-14 07:54:18,120 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:55:48,124 - INFO - home: ROC=0.3455, SOC=32.09510000000006
+2025-05-14 07:55:48,125 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:57:18,127 - INFO - home: ROC=0.359, SOC=32.21300000000002
+2025-05-14 07:57:18,128 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 07:58:48,132 - INFO - home: ROC=0.4425, SOC=32.21300000000002
+2025-05-14 07:58:48,133 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:00:18,137 - INFO - home: ROC=0.4885, SOC=32.330899999999986
+2025-05-14 08:00:18,138 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:00:18,141 - INFO - Transitioning to state: day-not_full-idle (mode: solar)
+2025-05-14 08:00:18,143 - INFO - optimum home bat ROC = 0.8366361454545456
+2025-05-14 08:01:48,147 - INFO - home: ROC=0.5625, SOC=32.44880000000006
+2025-05-14 08:01:48,147 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:01:48,149 - INFO - optimum home bat ROC = 0.835178472727272
+2025-05-14 08:03:18,151 - INFO - home: ROC=0.5865, SOC=32.566700000000026
+2025-05-14 08:03:18,152 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:03:18,154 - INFO - optimum home bat ROC = 0.8337207999999997
+2025-05-14 08:04:48,157 - INFO - home: ROC=0.684, SOC=32.68459999999999
+2025-05-14 08:04:48,158 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:04:48,159 - INFO - optimum home bat ROC = 0.8322631272727272
+2025-05-14 08:06:18,162 - INFO - home: ROC=0.922, SOC=32.802500000000066
+2025-05-14 08:06:18,163 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:06:18,164 - INFO - optimum home bat ROC = 0.8308054545454536
+2025-05-14 08:07:48,168 - INFO - home: ROC=0.94, SOC=33.03829999999999
+2025-05-14 08:07:48,169 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:07:48,173 - INFO - optimum home bat ROC = 0.8278901090909092
+2025-05-14 08:09:18,176 - INFO - home: ROC=0.9935, SOC=33.27410000000003
+2025-05-14 08:09:18,177 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:09:18,182 - INFO - optimum home bat ROC = 0.824974763636363
+2025-05-14 08:10:48,186 - INFO - home: ROC=1.0185, SOC=33.391999999999996
+2025-05-14 08:10:48,187 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:10:48,189 - INFO - optimum home bat ROC = 0.8235170909090909
+2025-05-14 08:12:18,192 - INFO - home: ROC=1.047, SOC=33.627800000000036
+2025-05-14 08:12:18,193 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:12:18,195 - INFO - optimum home bat ROC = 0.820601745454545
+2025-05-14 08:13:48,197 - INFO - home: ROC=1.0795, SOC=33.86359999999996
+2025-05-14 08:13:48,198 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:13:48,199 - INFO - optimum home bat ROC = 0.8176864000000005
+2025-05-14 08:15:18,202 - INFO - home: ROC=1.1035, SOC=34.0994
+2025-05-14 08:15:18,203 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:15:18,204 - INFO - optimum home bat ROC = 0.8147710545454546
+2025-05-14 08:16:48,207 - INFO - home: ROC=1.137, SOC=34.33520000000004
+2025-05-14 08:16:48,207 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:16:48,209 - INFO - optimum home bat ROC = 0.8118557090909085
+2025-05-14 08:18:18,212 - INFO - home: ROC=1.1455, SOC=34.57099999999997
+2025-05-14 08:18:18,215 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:18:18,218 - INFO - optimum home bat ROC = 0.8089403636363639
+2025-05-14 08:19:48,222 - INFO - home: ROC=1.206, SOC=34.80680000000001
+2025-05-14 08:19:48,224 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:19:48,225 - INFO - optimum home bat ROC = 0.806025018181818
+2025-05-14 08:21:18,229 - INFO - home: ROC=1.237, SOC=35.04260000000005
+2025-05-14 08:21:18,229 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:21:18,230 - INFO - optimum home bat ROC = 0.8031096727272721
+2025-05-14 08:22:48,234 - INFO - home: ROC=1.2555, SOC=35.278399999999976
+2025-05-14 08:22:48,235 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:22:48,236 - INFO - optimum home bat ROC = 0.8001943272727275
+2025-05-14 08:24:18,239 - INFO - home: ROC=1.2785, SOC=35.51420000000002
+2025-05-14 08:24:18,240 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:24:18,242 - INFO - optimum home bat ROC = 0.7972789818181816
+2025-05-14 08:25:48,245 - INFO - home: ROC=1.307, SOC=35.75000000000006
+2025-05-14 08:25:48,245 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:25:48,246 - INFO - optimum home bat ROC = 0.7943636363636357
+2025-05-14 08:27:18,250 - INFO - home: ROC=1.344, SOC=36.10370000000006
+2025-05-14 08:27:18,251 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:27:18,254 - INFO - optimum home bat ROC = 0.7899906181818174
+2025-05-14 08:28:48,260 - INFO - home: ROC=1.359, SOC=36.33949999999999
+2025-05-14 08:28:48,261 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:28:48,262 - INFO - optimum home bat ROC = 0.7870752727272727
+2025-05-14 08:30:18,265 - INFO - home: ROC=1.4025, SOC=36.57530000000003
+2025-05-14 08:30:18,266 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:30:18,266 - INFO - optimum home bat ROC = 0.784159927272727
+2025-05-14 08:31:48,270 - INFO - home: ROC=1.4225, SOC=36.92900000000003
+2025-05-14 08:31:48,271 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:31:48,272 - INFO - optimum home bat ROC = 0.7797869090909088
+2025-05-14 08:33:18,276 - INFO - home: ROC=1.4575, SOC=37.16479999999996
+2025-05-14 08:33:18,278 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:33:18,280 - INFO - optimum home bat ROC = 0.7768715636363641
+2025-05-14 08:34:48,283 - INFO - home: ROC=1.4965, SOC=37.51849999999996
+2025-05-14 08:34:48,284 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:34:48,285 - INFO - optimum home bat ROC = 0.7724985454545458
+2025-05-14 08:36:18,289 - INFO - home: ROC=1.514, SOC=37.7543
+2025-05-14 08:36:18,290 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:36:18,293 - INFO - optimum home bat ROC = 0.7695832
+2025-05-14 08:37:48,297 - INFO - home: ROC=1.5315, SOC=38.108000000000004
+2025-05-14 08:37:48,297 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:37:48,298 - INFO - optimum home bat ROC = 0.7652101818181817
+2025-05-14 08:39:18,302 - INFO - home: ROC=1.5815, SOC=38.46170000000001
+2025-05-14 08:39:18,304 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:39:18,306 - INFO - optimum home bat ROC = 0.7608371636363636
+2025-05-14 08:40:48,311 - INFO - home: ROC=1.616, SOC=38.69750000000005
+2025-05-14 08:40:48,312 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:40:48,318 - INFO - optimum home bat ROC = 0.7579218181818175
+2025-05-14 08:42:18,323 - INFO - home: ROC=1.6375, SOC=39.05120000000005
+2025-05-14 08:42:18,324 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:42:18,325 - INFO - optimum home bat ROC = 0.7535487999999994
+2025-05-14 08:43:48,333 - INFO - home: ROC=1.672, SOC=39.404900000000055
+2025-05-14 08:43:48,334 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:43:48,335 - INFO - optimum home bat ROC = 0.7491757818181811
+2025-05-14 08:45:18,340 - INFO - home: ROC=1.687, SOC=39.75860000000006
+2025-05-14 08:45:18,341 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:45:18,343 - INFO - optimum home bat ROC = 0.7448027636363629
+2025-05-14 08:46:48,346 - INFO - home: ROC=1.7125, SOC=40.11230000000006
+2025-05-14 08:46:48,347 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:46:48,349 - INFO - optimum home bat ROC = 0.7404297454545447
+2025-05-14 08:48:18,350 - INFO - home: ROC=1.7275, SOC=40.466000000000065
+2025-05-14 08:48:18,351 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:48:18,352 - INFO - optimum home bat ROC = 0.7360567272727263
+2025-05-14 08:49:48,356 - INFO - home: ROC=1.7435, SOC=40.819699999999955
+2025-05-14 08:49:48,357 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:49:48,360 - INFO - optimum home bat ROC = 0.7316837090909097
+2025-05-14 08:51:18,364 - INFO - home: ROC=1.635, SOC=41.17339999999996
+2025-05-14 08:51:18,369 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:51:18,372 - INFO - optimum home bat ROC = 0.7273106909090914
+2025-05-14 08:52:48,374 - INFO - home: ROC=1.668, SOC=41.52709999999996
+2025-05-14 08:52:48,375 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:52:48,376 - INFO - optimum home bat ROC = 0.7229376727272732
+2025-05-14 08:54:18,378 - INFO - home: ROC=1.69, SOC=41.7629
+2025-05-14 08:54:18,379 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:54:18,380 - INFO - optimum home bat ROC = 0.7200223272727272
+2025-05-14 08:55:48,384 - INFO - home: ROC=1.7385, SOC=42.116600000000005
+2025-05-14 08:55:48,386 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:55:48,389 - INFO - optimum home bat ROC = 0.7156493090909091
+2025-05-14 08:57:18,394 - INFO - home: ROC=1.8375, SOC=42.58819999999997
+2025-05-14 08:57:18,395 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:57:18,397 - INFO - optimum home bat ROC = 0.7098186181818186
+2025-05-14 08:58:48,402 - INFO - home: ROC=1.869, SOC=42.941899999999976
+2025-05-14 08:58:48,403 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 08:58:48,406 - INFO - optimum home bat ROC = 0.7054456000000002
+2025-05-14 09:00:18,409 - INFO - home: ROC=1.8885, SOC=43.29559999999998
+2025-05-14 09:00:18,410 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:00:18,412 - INFO - optimum home bat ROC = 0.7711798400000003
+2025-05-14 09:01:43,203 - INFO - Received /status request
+2025-05-14 09:01:48,128 - INFO - Received /status request
+2025-05-14 09:01:48,416 - INFO - home: ROC=1.9265, SOC=43.64929999999998
+2025-05-14 09:01:48,416 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:01:48,418 - INFO - optimum home bat ROC = 0.7663695200000002
+2025-05-14 09:01:53,118 - INFO - Received /status request
+2025-05-14 09:01:58,171 - INFO - Received /status request
+2025-05-14 09:02:03,207 - INFO - Received /status request
+2025-05-14 09:02:08,145 - INFO - Received /status request
+2025-05-14 09:02:13,192 - INFO - Received /status request
+2025-05-14 09:02:18,196 - INFO - Received /status request
+2025-05-14 09:02:23,193 - INFO - Received /status request
+2025-05-14 09:02:28,219 - INFO - Received /status request
+2025-05-14 09:02:33,148 - INFO - Received /status request
+2025-05-14 09:02:38,121 - INFO - Received /status request
+2025-05-14 09:02:43,162 - INFO - Received /status request
+2025-05-14 09:02:48,137 - INFO - Received /status request
+2025-05-14 09:02:53,196 - INFO - Received /status request
+2025-05-14 09:02:58,141 - INFO - Received /status request
+2025-05-14 09:03:03,138 - INFO - Received /status request
+2025-05-14 09:03:08,174 - INFO - Received /status request
+2025-05-14 09:03:13,154 - INFO - Received /status request
+2025-05-14 09:03:18,420 - INFO - home: ROC=1.9045, SOC=44.002999999999986
+2025-05-14 09:03:18,421 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:03:18,422 - INFO - optimum home bat ROC = 0.7615592000000001
+2025-05-14 09:03:18,600 - INFO - Received /status request
+2025-05-14 09:03:26,807 - INFO - Received /status request
+2025-05-14 09:04:48,424 - INFO - home: ROC=1.9745, SOC=44.474600000000066
+2025-05-14 09:04:48,425 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:04:48,426 - INFO - optimum home bat ROC = 0.7551454399999991
+2025-05-14 09:06:18,430 - INFO - home: ROC=1.9975, SOC=44.828299999999956
+2025-05-14 09:06:18,432 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:06:18,434 - INFO - optimum home bat ROC = 0.7503351200000006
+2025-05-14 09:07:48,438 - INFO - home: ROC=1.974, SOC=45.29990000000004
+2025-05-14 09:07:48,439 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:07:48,440 - INFO - optimum home bat ROC = 0.7439213599999995
+2025-05-14 09:09:18,443 - INFO - home: ROC=2.018, SOC=45.65360000000004
+2025-05-14 09:09:18,444 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:09:18,446 - INFO - optimum home bat ROC = 0.7391110399999994
+2025-05-14 09:10:48,448 - INFO - home: ROC=2.0245, SOC=46.00730000000004
+2025-05-14 09:10:48,449 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:10:48,451 - INFO - optimum home bat ROC = 0.7343007199999995
+2025-05-14 09:12:18,454 - INFO - home: ROC=2.0405, SOC=46.47890000000001
+2025-05-14 09:12:18,455 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:12:18,457 - INFO - optimum home bat ROC = 0.7278869599999999
+2025-05-14 09:13:48,461 - INFO - home: ROC=2.0795, SOC=46.95049999999998
+2025-05-14 09:13:48,462 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:13:48,464 - INFO - optimum home bat ROC = 0.7214732000000003
+2025-05-14 09:15:18,468 - INFO - home: ROC=2.103, SOC=47.30419999999998
+2025-05-14 09:15:18,469 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:15:18,471 - INFO - optimum home bat ROC = 0.7166628800000003
+2025-05-14 09:16:48,474 - INFO - home: ROC=2.144, SOC=47.77580000000006
+2025-05-14 09:16:48,475 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:16:48,478 - INFO - optimum home bat ROC = 0.7102491199999992
+2025-05-14 09:18:18,480 - INFO - home: ROC=2.19, SOC=48.129500000000064
+2025-05-14 09:18:18,480 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:18:18,481 - INFO - optimum home bat ROC = 0.705438799999999
+2025-05-14 09:18:19,846 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:18:20,188 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:19:50,192 - INFO - home: ROC=2.229, SOC=48.60110000000003
+2025-05-14 09:19:50,193 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:19:50,194 - INFO - optimum home bat ROC = 0.6990250399999995
+2025-05-14 09:19:50,654 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:19:51,171 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:21:21,173 - INFO - home: ROC=2.262, SOC=49.0727
+2025-05-14 09:21:21,174 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:21:21,176 - INFO - optimum home bat ROC = 0.6926112800000002
+2025-05-14 09:21:21,498 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:21:21,823 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:22:51,827 - INFO - home: ROC=2.2495, SOC=49.544299999999964
+2025-05-14 09:22:51,828 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:22:51,829 - INFO - optimum home bat ROC = 0.6861975200000006
+2025-05-14 09:22:54,417 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:22:54,879 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:24:24,499 - INFO - Received /status request
+2025-05-14 09:24:24,891 - INFO - home: ROC=2.2885, SOC=50.015900000000045
+2025-05-14 09:24:24,892 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:24:24,893 - INFO - optimum home bat ROC = 0.6797837599999993
+2025-05-14 09:24:25,610 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:24:25,981 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:24:27,803 - INFO - Received /status request
+2025-05-14 09:24:27,867 - INFO - Received /status request
+2025-05-14 09:24:30,572 - INFO - Received /status request
+2025-05-14 09:24:37,870 - INFO - Received /status request
+2025-05-14 09:24:37,944 - INFO - Received /status request
+2025-05-14 09:24:47,822 - INFO - Received /status request
+2025-05-14 09:24:47,902 - INFO - Received /status request
+2025-05-14 09:24:57,186 - INFO - Received /status request
+2025-05-14 09:24:57,277 - INFO - Received /status request
+2025-05-14 09:24:57,300 - INFO - Received /status request
+2025-05-14 09:24:57,340 - INFO - Received /status request
+2025-05-14 09:24:59,042 - INFO - Received /status request
+2025-05-14 09:25:55,985 - INFO - home: ROC=2.307, SOC=50.48750000000001
+2025-05-14 09:25:55,986 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:25:55,987 - INFO - optimum home bat ROC = 0.6733699999999999
+2025-05-14 09:25:56,329 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:25:56,660 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:26:10,913 - INFO - Received /status request
+2025-05-14 09:26:12,363 - INFO - Received /status request
+2025-05-14 09:26:17,371 - INFO - Received /status request
+2025-05-14 09:26:22,360 - INFO - Received /status request
+2025-05-14 09:26:27,399 - INFO - Received /status request
+2025-05-14 09:26:32,364 - INFO - Received /status request
+2025-05-14 09:26:37,370 - INFO - Received /status request
+2025-05-14 09:26:42,371 - INFO - Received /status request
+2025-05-14 09:26:47,344 - INFO - Received /status request
+2025-05-14 09:26:52,373 - INFO - Received /status request
+2025-05-14 09:26:57,373 - INFO - Received /status request
+2025-05-14 09:27:02,358 - INFO - Received /status request
+2025-05-14 09:27:08,615 - INFO - Received /status request
+2025-05-14 09:27:12,422 - INFO - Received /status request
+2025-05-14 09:27:17,679 - INFO - Received /status request
+2025-05-14 09:27:22,341 - INFO - Received /status request
+2025-05-14 09:27:26,663 - INFO - home: ROC=2.323, SOC=50.95909999999998
+2025-05-14 09:27:26,664 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:27:26,667 - INFO - optimum home bat ROC = 0.6669562400000003
+2025-05-14 09:27:27,027 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:27:27,354 - INFO - Received /status request
+2025-05-14 09:27:27,357 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:27:32,358 - INFO - Received /status request
+2025-05-14 09:27:37,795 - INFO - Received /status request
+2025-05-14 09:28:57,361 - INFO - home: ROC=2.298, SOC=51.43070000000006
+2025-05-14 09:28:57,361 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:28:57,363 - INFO - optimum home bat ROC = 0.6605424799999992
+2025-05-14 09:28:57,807 - ERROR - Error setting new charging rate: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v2/charger/913327
+2025-05-14 09:28:58,174 - ERROR - Error resuming charging: 401 Client Error: Unauthorized for url: https://api.wall-box.com/v3/chargers/913327/remote-action
+2025-05-14 09:29:21,809 - WARNING - Starting Energy Manager
+2025-05-14 09:30:57,917 - INFO - New Charging Mode = solar
+2025-05-14 09:30:57,918 - INFO - home: ROC=2.4095, SOC=52.138100000000065
+2025-05-14 09:30:57,920 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:30:57,921 - INFO - Transitioning to state: day-not_full-idle (mode: solar)
+2025-05-14 09:30:57,922 - INFO - optimum home bat ROC = 0.6509218399999991
+2025-05-14 09:30:58,789 - DEBUG - New charging rate set to 30.530870833333346 A
+2025-05-14 09:30:58,790 - INFO - New charging rate set to 7.327409000000003 kW
+2025-05-14 09:30:59,749 - INFO - Charging resumed
+2025-05-14 09:32:29,753 - INFO - home: ROC=2.4305, SOC=52.60970000000003
+2025-05-14 09:32:29,753 - INFO - car : ROC=1.44, Status = idle
+2025-05-14 09:32:29,754 - INFO - optimum home bat ROC = 0.6445080799999995
+2025-05-14 09:32:30,328 - DEBUG - New charging rate set to 31.006804166666672 A
+2025-05-14 09:32:30,329 - INFO - New charging rate set to 7.441633000000001 kW
+2025-05-14 09:34:00,332 - INFO - home: ROC=0.933, SOC=52.84549999999996
+2025-05-14 09:34:00,334 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:34:00,335 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 09:34:00,337 - INFO - optimum home bat ROC = 0.6413012000000006
+2025-05-14 09:34:00,755 - DEBUG - New charging rate set to 32.0 A
+2025-05-14 09:34:00,757 - INFO - New charging rate set to 7.68 kW
+2025-05-14 09:34:13,804 - INFO - Received /status request
+2025-05-14 09:34:13,807 - INFO - Received /status request
+2025-05-14 09:34:13,812 - INFO - Received /status request
+2025-05-14 09:34:13,816 - INFO - Received /status request
+2025-05-14 09:34:13,821 - INFO - Received /status request
+2025-05-14 09:34:13,823 - INFO - Received /status request
+2025-05-14 09:34:18,367 - INFO - Received /status request
+2025-05-14 09:34:23,405 - INFO - Received /status request
+2025-05-14 09:34:28,421 - INFO - Received /status request
+2025-05-14 09:34:33,400 - INFO - Received /status request
+2025-05-14 09:34:37,299 - WARNING - Starting Energy Manager
+2025-05-14 09:34:38,420 - INFO - Received /status request
+2025-05-14 09:34:43,430 - INFO - Received /status request
+2025-05-14 09:34:48,415 - INFO - Received /status request
+2025-05-14 09:34:53,416 - INFO - Received /status request
+2025-05-14 09:34:58,431 - INFO - Received /status request
+2025-05-14 09:35:03,402 - INFO - Received /status request
+2025-05-14 09:35:08,402 - INFO - Received /status request
+2025-05-14 09:35:13,371 - INFO - Received /status request
+2025-05-14 09:35:18,398 - INFO - Received /status request
+2025-05-14 09:35:24,147 - INFO - Received /status request
+2025-05-14 09:35:28,411 - INFO - Received /status request
+2025-05-14 09:35:33,393 - INFO - Received /status request
+2025-05-14 09:35:38,914 - INFO - Received /status request
+2025-05-14 09:35:46,893 - INFO - Received /status request
+2025-05-14 09:35:48,858 - INFO - Received /status request
+2025-05-14 09:35:53,889 - INFO - Received /status request
+2025-05-14 09:35:59,862 - INFO - Received /status request
+2025-05-14 09:36:05,955 - INFO - Received /status request
+2025-05-14 09:36:11,067 - INFO - Received /status request
+2025-05-14 09:36:13,421 - INFO - New Charging Mode = solar
+2025-05-14 09:36:13,423 - INFO - home: ROC=0.943, SOC=53.0813
+2025-05-14 09:36:13,423 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:36:13,425 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 09:36:13,426 - INFO - optimum home bat ROC = 0.63809432
+2025-05-14 09:36:13,879 - DEBUG - New charging rate set to 7.68 A
+2025-05-14 09:36:13,880 - INFO - New charging rate set to 1.8431999999999997 kW
+2025-05-14 09:37:43,883 - INFO - home: ROC=0.989, SOC=53.31710000000004
+2025-05-14 09:37:43,884 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:37:43,886 - INFO - optimum home bat ROC = 0.6348874399999994
+2025-05-14 09:39:13,889 - INFO - home: ROC=1.0005, SOC=53.552899999999966
+2025-05-14 09:39:13,889 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:39:13,891 - INFO - optimum home bat ROC = 0.6316805600000004
+2025-05-14 09:40:43,895 - INFO - home: ROC=1.03, SOC=53.788700000000006
+2025-05-14 09:40:43,895 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:40:43,897 - INFO - optimum home bat ROC = 0.62847368
+2025-05-14 09:41:40,534 - INFO - Received /status request
+2025-05-14 09:41:45,431 - INFO - Received /status request
+2025-05-14 09:41:50,435 - INFO - Received /status request
+2025-05-14 09:41:55,432 - INFO - Received /status request
+2025-05-14 09:42:00,476 - INFO - Received /status request
+2025-05-14 09:42:05,440 - INFO - Received /status request
+2025-05-14 09:42:10,491 - INFO - Received /status request
+2025-05-14 09:42:13,901 - INFO - home: ROC=1.047, SOC=53.90659999999997
+2025-05-14 09:42:13,902 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:42:13,905 - INFO - optimum home bat ROC = 0.6268702400000004
+2025-05-14 09:42:15,429 - INFO - Received /status request
+2025-05-14 09:42:20,437 - INFO - Received /status request
+2025-05-14 09:42:25,491 - INFO - Received /status request
+2025-05-14 09:42:30,900 - INFO - Received /status request
+2025-05-14 09:43:43,913 - INFO - home: ROC=1.0755, SOC=54.14240000000001
+2025-05-14 09:43:43,914 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:43:43,916 - INFO - optimum home bat ROC = 0.6236633599999999
+2025-05-14 09:44:37,569 - WARNING - Starting Energy Manager
+2025-05-14 09:46:13,678 - INFO - New Charging Mode = solar
+2025-05-14 09:46:13,679 - INFO - home: ROC=1.09, SOC=54.49610000000001
+2025-05-14 09:46:13,680 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:46:13,681 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 09:46:13,683 - INFO - optimum home bat ROC = 0.6188530399999997
+2025-05-14 09:46:14,598 - DEBUG - New charging rate set to 8.963112333333333 A
+2025-05-14 09:46:14,599 - INFO - New charging rate set to 2.15114696 kW
+2025-05-14 09:46:58,448 - INFO - Received /status request
+2025-05-14 09:46:58,458 - INFO - Received /status request
+2025-05-14 09:46:58,461 - INFO - Received /status request
+2025-05-14 09:46:58,463 - INFO - Received /status request
+2025-05-14 09:46:58,465 - INFO - Received /status request
+2025-05-14 09:47:44,603 - INFO - home: ROC=1.1005, SOC=54.73190000000005
+2025-05-14 09:47:44,606 - INFO - car : ROC=1.68, Status = charging
+2025-05-14 09:47:44,608 - INFO - optimum home bat ROC = 0.6156461599999992
+2025-05-14 09:47:47,733 - DEBUG - New charging rate set to 9.020224333333339 A
+2025-05-14 09:47:47,734 - INFO - New charging rate set to 2.164853840000001 kW
+2025-05-14 09:49:17,737 - INFO - home: ROC=0.8525, SOC=54.96769999999998
+2025-05-14 09:49:17,739 - INFO - car : ROC=1.92, Status = charging
+2025-05-14 09:49:17,742 - INFO - optimum home bat ROC = 0.6124392800000004
+2025-05-14 09:49:18,533 - DEBUG - New charging rate set to 9.000252999999997 A
+2025-05-14 09:49:18,534 - INFO - New charging rate set to 2.1600607199999997 kW
+2025-05-14 09:50:10,873 - WARNING - Starting Energy Manager
+2025-05-14 09:51:49,044 - INFO - New Charging Mode = solar
+2025-05-14 09:51:49,045 - INFO - home: ROC=0.505, SOC=55.085600000000056
+2025-05-14 09:51:49,046 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 09:51:49,048 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 09:51:49,049 - INFO - optimum home bat ROC = 0.6108358399999992
+2025-05-14 09:51:49,541 - DEBUG - New charging rate set to 9 A
+2025-05-14 09:51:49,542 - INFO - New charging rate set to 2.16 kW
+2025-05-14 09:53:19,545 - INFO - home: ROC=0.5395, SOC=55.20350000000002
+2025-05-14 09:53:19,546 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 09:53:19,549 - INFO - optimum home bat ROC = 0.6092323999999998
+2025-05-14 09:54:49,552 - INFO - home: ROC=0.475, SOC=55.32139999999998
+2025-05-14 09:54:49,553 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 09:54:49,554 - INFO - optimum home bat ROC = 0.6076289600000002
+2025-05-14 09:54:50,436 - DEBUG - New charging rate set to 8 A
+2025-05-14 09:54:50,437 - INFO - New charging rate set to 1.92 kW
+2025-05-14 09:56:20,440 - INFO - home: ROC=0.491, SOC=55.43930000000006
+2025-05-14 09:56:20,440 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 09:56:20,441 - INFO - optimum home bat ROC = 0.6060255199999992
+2025-05-14 09:56:21,367 - DEBUG - New charging rate set to 9 A
+2025-05-14 09:56:21,368 - INFO - New charging rate set to 2.16 kW
+2025-05-14 09:57:51,373 - INFO - home: ROC=0.878, SOC=55.55720000000002
+2025-05-14 09:57:51,373 - INFO - car : ROC=1.92, Status = charging
+2025-05-14 09:57:51,375 - INFO - optimum home bat ROC = 0.6044220799999998
+2025-05-14 09:59:21,377 - INFO - home: ROC=0.673, SOC=55.79300000000006
+2025-05-14 09:59:21,378 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 09:59:21,380 - INFO - optimum home bat ROC = 0.6012151999999992
+2025-05-14 10:00:51,383 - INFO - home: ROC=0.5665, SOC=55.79300000000006
+2025-05-14 10:00:51,384 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:00:51,385 - INFO - optimum home bat ROC = 0.668016888888888
+2025-05-14 10:02:21,391 - INFO - home: ROC=0.5355, SOC=55.91090000000003
+2025-05-14 10:02:21,392 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:02:21,394 - INFO - optimum home bat ROC = 0.6662352888888884
+2025-05-14 10:02:22,255 - DEBUG - New charging rate set to 8 A
+2025-05-14 10:02:22,256 - INFO - New charging rate set to 1.92 kW
+2025-05-14 10:03:52,263 - INFO - home: ROC=0.592, SOC=56.02879999999999
+2025-05-14 10:03:52,264 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:03:52,267 - INFO - optimum home bat ROC = 0.664453688888889
+2025-05-14 10:03:53,216 - DEBUG - New charging rate set to 9 A
+2025-05-14 10:03:53,217 - INFO - New charging rate set to 2.16 kW
+2025-05-14 10:05:18,086 - WARNING - Wallbox code 401, Token expired, re-authenticating...
+2025-05-14 10:05:23,221 - INFO - home: ROC=0.828, SOC=56.26460000000003
+2025-05-14 10:05:23,222 - INFO - car : ROC=1.92, Status = charging
+2025-05-14 10:05:23,224 - INFO - optimum home bat ROC = 0.6608904888888883
+2025-05-14 10:06:53,228 - INFO - home: ROC=0.7425, SOC=56.38249999999999
+2025-05-14 10:06:53,229 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:06:53,232 - INFO - optimum home bat ROC = 0.659108888888889
+2025-05-14 10:06:55,807 - WARNING - Starting Energy Manager
+2025-05-14 10:07:02,883 - INFO - Received /status request
+2025-05-14 10:07:07,830 - INFO - Received /status request
+2025-05-14 10:07:09,450 - INFO - Received /status request
+2025-05-14 10:07:09,455 - INFO - Received /get mode request
+2025-05-14 10:07:14,471 - INFO - Received /status request
+2025-05-14 10:07:15,484 - INFO - Received /status request
+2025-05-14 10:07:15,509 - INFO - Received /get mode request
+2025-05-14 10:07:20,518 - INFO - Received /status request
+2025-05-14 10:07:25,533 - INFO - Received /status request
+2025-05-14 10:07:30,516 - INFO - Received /status request
+2025-05-14 10:07:35,515 - INFO - Received /status request
+2025-05-14 10:07:40,518 - INFO - Received /status request
+2025-05-14 10:07:45,522 - INFO - Received /status request
+2025-05-14 10:07:50,557 - INFO - Received /status request
+2025-05-14 10:07:55,523 - INFO - Received /status request
+2025-05-14 10:08:01,579 - INFO - Received /status request
+2025-05-14 10:08:05,514 - INFO - Received /status request
+2025-05-14 10:08:10,540 - INFO - Received /status request
+2025-05-14 10:08:15,521 - INFO - Received /status request
+2025-05-14 10:08:20,527 - INFO - Received /status request
+2025-05-14 10:08:25,574 - INFO - Received /status request
+2025-05-14 10:08:30,535 - INFO - Received /status request
+2025-05-14 10:08:31,871 - INFO - New Charging Mode = solar
+2025-05-14 10:08:31,872 - INFO - home: ROC=0.766, SOC=56.500399999999956
+2025-05-14 10:08:31,875 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:08:31,877 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 10:08:31,879 - INFO - optimum home bat ROC = 0.6573272888888895
+2025-05-14 10:08:32,286 - DEBUG - New charging rate set to 9 A
+2025-05-14 10:08:32,287 - INFO - New charging rate set to 2.16 kW
+2025-05-14 10:08:36,522 - INFO - Received /status request
+2025-05-14 10:08:40,478 - INFO - Received /status request
+2025-05-14 10:08:45,500 - INFO - Received /status request
+2025-05-14 10:08:50,570 - INFO - Received /status request
+2025-05-14 10:08:55,496 - INFO - Received /status request
+2025-05-14 10:09:00,526 - INFO - Received /status request
+2025-05-14 10:09:05,535 - INFO - Received /status request
+2025-05-14 10:09:10,524 - INFO - Received /status request
+2025-05-14 10:09:15,528 - INFO - Received /status request
+2025-05-14 10:09:20,531 - INFO - Received /status request
+2025-05-14 10:09:25,504 - INFO - Received /status request
+2025-05-14 10:09:30,506 - INFO - Received /status request
+2025-05-14 10:09:35,518 - INFO - Received /status request
+2025-05-14 10:09:40,563 - INFO - Received /status request
+2025-05-14 10:09:45,538 - INFO - Received /status request
+2025-05-14 10:09:50,522 - INFO - Received /status request
+2025-05-14 10:09:55,538 - INFO - Received /status request
+2025-05-14 10:10:00,491 - INFO - Received /status request
+2025-05-14 10:10:02,291 - INFO - home: ROC=0.768, SOC=56.7362
+2025-05-14 10:10:02,293 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:10:02,296 - INFO - optimum home bat ROC = 0.653764088888889
+2025-05-14 10:10:06,025 - INFO - Received /status request
+2025-05-14 10:10:10,506 - INFO - Received /status request
+2025-05-14 10:10:15,525 - INFO - Received /status request
+2025-05-14 10:10:20,537 - INFO - Received /status request
+2025-05-14 10:10:25,510 - INFO - Received /status request
+2025-05-14 10:10:31,214 - INFO - Received /status request
+2025-05-14 10:10:35,244 - WARNING - Starting Energy Manager
+2025-05-14 10:10:46,473 - INFO - Received /status request
+2025-05-14 10:10:46,480 - INFO - Received /get mode request
+2025-05-14 10:10:51,445 - INFO - Received /status request
+2025-05-14 10:10:56,446 - INFO - Received /status request
+2025-05-14 10:11:01,435 - INFO - Received /status request
+2025-05-14 10:11:06,431 - INFO - Received /status request
+2025-05-14 10:11:11,462 - INFO - Received /status request
+2025-05-14 10:11:16,433 - INFO - Received /status request
+2025-05-14 10:11:21,477 - INFO - Received /status request
+2025-05-14 10:11:26,441 - INFO - Received /status request
+2025-05-14 10:11:31,752 - INFO - Received /status request
+2025-05-14 10:11:36,754 - INFO - Received /status request
+2025-05-14 10:11:41,752 - INFO - Received /status request
+2025-05-14 10:11:46,768 - INFO - Received /status request
+2025-05-14 10:11:51,750 - INFO - Received /status request
+2025-05-14 10:11:56,758 - INFO - Received /status request
+2025-05-14 10:12:01,756 - INFO - Received /status request
+2025-05-14 10:12:06,749 - INFO - Received /status request
+2025-05-14 10:12:11,352 - INFO - New Charging Mode = solar
+2025-05-14 10:12:11,353 - INFO - home: ROC=0.796, SOC=56.97200000000004
+2025-05-14 10:12:11,354 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:12:11,355 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 10:12:11,356 - INFO - optimum home bat ROC = 0.6502008888888884
+2025-05-14 10:12:11,750 - INFO - Received /status request
+2025-05-14 10:12:12,300 - DEBUG - New charging rate set to 10 A
+2025-05-14 10:12:12,301 - INFO - New charging rate set to 2.4 kW
+2025-05-14 10:12:16,747 - INFO - Received /status request
+2025-05-14 10:12:21,763 - INFO - Received /status request
+2025-05-14 10:12:27,013 - INFO - Received /status request
+2025-05-14 10:12:31,439 - INFO - Received /status request
+2025-05-14 10:12:36,447 - INFO - Received /status request
+2025-05-14 10:12:41,454 - INFO - Received /status request
+2025-05-14 10:12:46,484 - INFO - Received /status request
+2025-05-14 10:12:51,441 - INFO - Received /status request
+2025-05-14 10:12:56,438 - INFO - Received /status request
+2025-05-14 10:13:01,433 - INFO - Received /status request
+2025-05-14 10:13:06,447 - INFO - Received /status request
+2025-05-14 10:13:11,469 - INFO - Received /status request
+2025-05-14 10:13:16,447 - INFO - Received /status request
+2025-05-14 10:13:21,436 - INFO - Received /status request
+2025-05-14 10:13:26,433 - INFO - Received /status request
+2025-05-14 10:13:31,437 - INFO - Received /status request
+2025-05-14 10:13:36,449 - INFO - Received /status request
+2025-05-14 10:13:41,433 - INFO - Received /status request
+2025-05-14 10:13:42,303 - INFO - home: ROC=0.821, SOC=57.0899
+2025-05-14 10:13:42,304 - INFO - car : ROC=2.16, Status = charging
+2025-05-14 10:13:42,305 - INFO - optimum home bat ROC = 0.6484192888888889
+2025-05-14 10:13:46,447 - INFO - Received /status request
+2025-05-14 10:13:51,437 - INFO - Received /status request
+2025-05-14 10:13:56,434 - INFO - Received /status request
+2025-05-14 10:14:01,443 - INFO - Received /status request
+2025-05-14 10:14:06,448 - INFO - Received /status request
+2025-05-14 10:14:11,761 - INFO - Received /status request
+2025-05-14 10:14:17,054 - INFO - Received /status request
+2025-05-14 10:14:21,754 - INFO - Received /status request
+2025-05-14 10:14:26,740 - INFO - Received /status request
+2025-05-14 10:14:31,756 - INFO - Received /status request
+2025-05-14 10:14:36,747 - INFO - Received /status request
+2025-05-14 10:14:41,750 - INFO - Received /status request
+2025-05-14 10:14:46,760 - INFO - Received /status request
+2025-05-14 10:14:51,744 - INFO - Received /status request
+2025-05-14 10:14:56,753 - INFO - Received /status request
+2025-05-14 10:15:01,746 - INFO - Received /status request
+2025-05-14 10:15:06,760 - INFO - Received /status request
+2025-05-14 10:15:12,308 - INFO - home: ROC=0.5535, SOC=57.20779999999996
+2025-05-14 10:15:12,308 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:15:12,310 - INFO - optimum home bat ROC = 0.6466376888888894
+2025-05-14 10:15:17,746 - INFO - Received /status request
+2025-05-14 10:16:17,752 - INFO - Received /status request
+2025-05-14 10:16:42,312 - INFO - home: ROC=0.581, SOC=57.32570000000004
+2025-05-14 10:16:42,313 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:16:42,314 - INFO - optimum home bat ROC = 0.6448560888888883
+2025-05-14 10:17:17,745 - INFO - Received /status request
+2025-05-14 10:18:12,317 - INFO - home: ROC=0.582, SOC=57.4436
+2025-05-14 10:18:12,318 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:18:12,319 - INFO - optimum home bat ROC = 0.6430744888888887
+2025-05-14 10:18:17,753 - INFO - Received /status request
+2025-05-14 10:19:18,043 - INFO - Received /status request
+2025-05-14 10:19:42,322 - INFO - home: ROC=0.5825, SOC=57.56149999999997
+2025-05-14 10:19:42,324 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:19:42,325 - INFO - optimum home bat ROC = 0.6412928888888894
+2025-05-14 10:20:17,770 - INFO - Received /status request
+2025-05-14 10:21:12,330 - INFO - home: ROC=0.611, SOC=57.679400000000044
+2025-05-14 10:21:12,330 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:21:12,332 - INFO - optimum home bat ROC = 0.6395112888888881
+2025-05-14 10:21:17,774 - INFO - Received /status request
+2025-05-14 10:22:17,770 - INFO - Received /status request
+2025-05-14 10:22:42,334 - INFO - home: ROC=0.627, SOC=57.79730000000001
+2025-05-14 10:22:42,334 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:22:42,336 - INFO - optimum home bat ROC = 0.6377296888888888
+2025-05-14 10:23:17,774 - INFO - Received /status request
+2025-05-14 10:24:12,338 - INFO - home: ROC=0.654, SOC=57.91519999999997
+2025-05-14 10:24:12,339 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:24:12,339 - INFO - optimum home bat ROC = 0.6359480888888894
+2025-05-14 10:24:17,747 - INFO - Received /status request
+2025-05-14 10:25:17,762 - INFO - Received /status request
+2025-05-14 10:25:40,386 - WARNING - Wallbox code 401, Token expired, re-authenticating...
+2025-05-14 10:25:42,342 - INFO - home: ROC=0.674, SOC=58.03310000000005
+2025-05-14 10:25:42,343 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:25:42,344 - INFO - optimum home bat ROC = 0.6341664888888882
+2025-05-14 10:26:17,992 - INFO - Received /status request
+2025-05-14 10:27:12,347 - INFO - home: ROC=0.7395, SOC=58.15100000000001
+2025-05-14 10:27:12,348 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:27:12,351 - INFO - optimum home bat ROC = 0.6323848888888888
+2025-05-14 10:27:17,770 - INFO - Received /status request
+2025-05-14 10:28:17,757 - INFO - Received /status request
+2025-05-14 10:28:42,356 - INFO - home: ROC=0.754, SOC=58.268899999999974
+2025-05-14 10:28:42,357 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:28:42,360 - INFO - optimum home bat ROC = 0.6306032888888892
+2025-05-14 10:28:43,180 - DEBUG - New charging rate set to 11 A
+2025-05-14 10:28:43,182 - INFO - New charging rate set to 2.64 kW
+2025-05-14 10:29:17,747 - INFO - Received /status request
+2025-05-14 10:30:13,185 - INFO - home: ROC=0.736, SOC=58.504700000000014
+2025-05-14 10:30:13,186 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:30:13,187 - INFO - optimum home bat ROC = 0.6270400888888887
+2025-05-14 10:30:14,049 - DEBUG - New charging rate set to 10 A
+2025-05-14 10:30:14,051 - INFO - New charging rate set to 2.4 kW
+2025-05-14 10:30:17,747 - INFO - Received /status request
+2025-05-14 10:31:17,755 - INFO - Received /status request
+2025-05-14 10:31:44,055 - INFO - home: ROC=0.532, SOC=58.62259999999998
+2025-05-14 10:31:44,056 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:31:44,057 - INFO - optimum home bat ROC = 0.6252584888888892
+2025-05-14 10:31:44,967 - DEBUG - New charging rate set to 11 A
+2025-05-14 10:31:44,968 - INFO - New charging rate set to 2.64 kW
+2025-05-14 10:32:17,782 - INFO - Received /status request
+2025-05-14 10:33:14,971 - INFO - home: ROC=0.7965, SOC=58.740500000000054
+2025-05-14 10:33:14,974 - INFO - car : ROC=2.4, Status = charging
+2025-05-14 10:33:14,975 - INFO - optimum home bat ROC = 0.6234768888888881
+2025-05-14 10:33:17,754 - INFO - Received /status request
+2025-05-14 10:34:17,740 - INFO - Received /status request
+2025-05-14 10:34:44,979 - INFO - home: ROC=0.5365, SOC=58.85840000000002
+2025-05-14 10:34:44,981 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:34:44,984 - INFO - optimum home bat ROC = 0.6216952888888885
+2025-05-14 10:35:17,774 - INFO - Received /status request
+2025-05-14 10:36:14,986 - INFO - home: ROC=0.5875, SOC=58.97629999999998
+2025-05-14 10:36:14,987 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:36:14,989 - INFO - optimum home bat ROC = 0.6199136888888891
+2025-05-14 10:36:17,752 - INFO - Received /status request
+2025-05-14 10:36:21,607 - INFO - Received /status request
+2025-05-14 10:36:26,419 - INFO - Received /status request
+2025-05-14 10:36:31,430 - INFO - Received /status request
+2025-05-14 10:36:36,418 - INFO - Received /status request
+2025-05-14 10:36:41,433 - INFO - Received /status request
+2025-05-14 10:36:46,436 - INFO - Received /status request
+2025-05-14 10:36:51,429 - INFO - Received /status request
+2025-05-14 10:36:56,762 - INFO - Received /status request
+2025-05-14 10:37:01,728 - INFO - Received /status request
+2025-05-14 10:37:06,731 - INFO - Received /status request
+2025-05-14 10:37:12,734 - INFO - Received /status request
+2025-05-14 10:37:16,716 - INFO - Received /status request
+2025-05-14 10:37:21,737 - INFO - Received /status request
+2025-05-14 10:37:26,758 - INFO - Received /status request
+2025-05-14 10:37:31,731 - INFO - Received /status request
+2025-05-14 10:37:36,749 - INFO - Received /status request
+2025-05-14 10:37:41,743 - INFO - Received /status request
+2025-05-14 10:37:44,991 - INFO - home: ROC=0.59, SOC=59.09420000000006
+2025-05-14 10:37:44,992 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:37:44,993 - INFO - optimum home bat ROC = 0.618132088888888
+2025-05-14 10:37:46,737 - INFO - Received /status request
+2025-05-14 10:37:51,730 - INFO - Received /status request
+2025-05-14 10:38:17,732 - INFO - Received /status request
+2025-05-14 10:38:25,242 - INFO - Received /status request
+2025-05-14 10:38:26,410 - INFO - Received /status request
+2025-05-14 10:38:31,414 - INFO - Received /status request
+2025-05-14 10:38:36,744 - INFO - Received /status request
+2025-05-14 10:38:41,739 - INFO - Received /status request
+2025-05-14 10:38:46,746 - INFO - Received /status request
+2025-05-14 10:38:53,880 - INFO - Received /status request
+2025-05-14 10:38:56,728 - INFO - Received /status request
+2025-05-14 10:39:01,733 - INFO - Received /status request
+2025-05-14 10:39:06,733 - INFO - Received /status request
+2025-05-14 10:39:11,754 - INFO - Received /status request
+2025-05-14 10:39:14,995 - INFO - home: ROC=0.603, SOC=59.21210000000002
+2025-05-14 10:39:14,996 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:39:14,997 - INFO - optimum home bat ROC = 0.6163504888888885
+2025-05-14 10:39:16,722 - INFO - Received /status request
+2025-05-14 10:39:21,723 - INFO - Received /status request
+2025-05-14 10:39:26,732 - INFO - Received /status request
+2025-05-14 10:39:31,742 - INFO - Received /status request
+2025-05-14 10:40:17,743 - INFO - Received /status request
+2025-05-14 10:40:41,490 - WARNING - Wallbox code 401, Token expired, re-authenticating...
+2025-05-14 10:40:44,999 - INFO - home: ROC=0.6075, SOC=59.329999999999984
+2025-05-14 10:40:45,000 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:40:45,001 - INFO - optimum home bat ROC = 0.6145688888888892
+2025-05-14 10:41:18,011 - INFO - Received /status request
+2025-05-14 10:42:15,004 - INFO - home: ROC=0.6305, SOC=59.44790000000006
+2025-05-14 10:42:15,004 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:42:15,005 - INFO - optimum home bat ROC = 0.6127872888888879
+2025-05-14 10:42:17,732 - INFO - Received /status request
+2025-05-14 10:43:17,744 - INFO - Received /status request
+2025-05-14 10:43:45,008 - INFO - home: ROC=0.6635, SOC=59.565800000000024
+2025-05-14 10:43:45,009 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:43:45,010 - INFO - optimum home bat ROC = 0.6110056888888885
+2025-05-14 10:44:17,740 - INFO - Received /status request
+2025-05-14 10:45:15,012 - INFO - home: ROC=0.6425, SOC=59.68369999999999
+2025-05-14 10:45:15,013 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:45:15,015 - INFO - optimum home bat ROC = 0.6092240888888891
+2025-05-14 10:45:17,728 - INFO - Received /status request
+2025-05-14 10:46:17,752 - INFO - Received /status request
+2025-05-14 10:46:45,017 - INFO - home: ROC=0.696, SOC=59.801600000000064
+2025-05-14 10:46:45,018 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:46:45,019 - INFO - optimum home bat ROC = 0.6074424888888879
+2025-05-14 10:47:17,736 - INFO - Received /status request
+2025-05-14 10:48:15,023 - INFO - home: ROC=0.6995, SOC=59.91950000000003
+2025-05-14 10:48:15,025 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:48:15,028 - INFO - optimum home bat ROC = 0.6056608888888886
+2025-05-14 10:48:17,717 - INFO - Received /status request
+2025-05-14 10:48:54,394 - INFO - Received /status request
+2025-05-14 10:48:56,402 - INFO - Received /status request
+2025-05-14 10:49:01,395 - INFO - Received /status request
+2025-05-14 10:49:06,491 - INFO - Received /status request
+2025-05-14 10:49:11,407 - INFO - Received /status request
+2025-05-14 10:49:16,399 - INFO - Received /status request
+2025-05-14 10:49:21,396 - INFO - Received /status request
+2025-05-14 10:49:26,794 - INFO - Received /status request
+2025-05-14 10:49:31,385 - INFO - Received /status request
+2025-05-14 10:49:37,462 - INFO - Received /status request
+2025-05-14 10:49:41,386 - INFO - Received /status request
+2025-05-14 10:49:45,031 - INFO - home: ROC=0.6635, SOC=60.03739999999999
+2025-05-14 10:49:45,032 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:49:45,035 - INFO - optimum home bat ROC = 0.603879288888889
+2025-05-14 10:49:46,396 - INFO - Received /status request
+2025-05-14 10:49:51,393 - INFO - Received /status request
+2025-05-14 10:49:56,390 - INFO - Received /status request
+2025-05-14 10:50:01,407 - INFO - Received /status request
+2025-05-14 10:50:06,408 - INFO - Received /status request
+2025-05-14 10:50:11,395 - INFO - Received /status request
+2025-05-14 10:50:16,550 - INFO - Received /status request
+2025-05-14 10:50:22,387 - INFO - Received /status request
+2025-05-14 10:50:26,393 - INFO - Received /status request
+2025-05-14 10:50:31,938 - INFO - Received /status request
+2025-05-14 10:50:36,389 - INFO - Received /status request
+2025-05-14 10:50:41,404 - INFO - Received /status request
+2025-05-14 10:50:46,404 - INFO - Received /status request
+2025-05-14 10:50:51,398 - INFO - Received /status request
+2025-05-14 10:50:57,026 - INFO - Received /status request
+2025-05-14 10:51:01,393 - INFO - Received /status request
+2025-05-14 10:51:06,401 - INFO - Received /status request
+2025-05-14 10:51:11,435 - INFO - Received /status request
+2025-05-14 10:51:15,037 - INFO - home: ROC=0.6775, SOC=60.27320000000003
+2025-05-14 10:51:15,038 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:51:15,039 - INFO - optimum home bat ROC = 0.6003160888888884
+2025-05-14 10:51:16,393 - INFO - Received /status request
+2025-05-14 10:51:21,402 - INFO - Received /status request
+2025-05-14 10:51:26,397 - INFO - Received /status request
+2025-05-14 10:51:31,402 - INFO - Received /status request
+2025-05-14 10:51:36,455 - INFO - Received /status request
+2025-05-14 10:51:41,394 - INFO - Received /status request
+2025-05-14 10:51:46,401 - INFO - Received /status request
+2025-05-14 10:51:51,657 - INFO - Received /status request
+2025-05-14 10:51:56,399 - INFO - Received /status request
+2025-05-14 10:52:01,404 - INFO - Received /status request
+2025-05-14 10:52:06,423 - INFO - Received /status request
+2025-05-14 10:52:11,398 - INFO - Received /status request
+2025-05-14 10:52:16,402 - INFO - Received /status request
+2025-05-14 10:52:21,389 - INFO - Received /status request
+2025-05-14 10:52:26,405 - INFO - Received /status request
+2025-05-14 10:52:31,402 - INFO - Received /status request
+2025-05-14 10:52:36,426 - INFO - Received /status request
+2025-05-14 10:52:41,400 - INFO - Received /status request
+2025-05-14 10:52:45,042 - INFO - home: ROC=0.7005, SOC=60.391099999999994
+2025-05-14 10:52:45,043 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:52:45,044 - INFO - optimum home bat ROC = 0.5985344888888888
+2025-05-14 10:52:46,400 - INFO - Received /status request
+2025-05-14 10:52:51,386 - INFO - Received /status request
+2025-05-14 10:52:56,403 - INFO - Received /status request
+2025-05-14 10:53:01,399 - INFO - Received /status request
+2025-05-14 10:53:06,391 - INFO - Received /status request
+2025-05-14 10:53:11,399 - INFO - Received /status request
+2025-05-14 10:53:16,396 - INFO - Received /status request
+2025-05-14 10:53:21,400 - INFO - Received /status request
+2025-05-14 10:53:26,401 - INFO - Received /status request
+2025-05-14 10:53:31,488 - INFO - Received /status request
+2025-05-14 10:53:36,709 - INFO - Received /status request
+2025-05-14 10:53:41,713 - INFO - Received /status request
+2025-05-14 10:53:46,713 - INFO - Received /status request
+2025-05-14 10:53:51,725 - INFO - Received /status request
+2025-05-14 10:53:56,741 - INFO - Received /status request
+2025-05-14 10:54:01,713 - INFO - Received /status request
+2025-05-14 10:54:06,723 - INFO - Received /status request
+2025-05-14 10:54:11,998 - INFO - Received /status request
+2025-05-14 10:54:15,048 - INFO - home: ROC=0.7085, SOC=60.50899999999996
+2025-05-14 10:54:15,049 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:54:15,052 - INFO - optimum home bat ROC = 0.5967528888888896
+2025-05-14 10:54:16,719 - INFO - Received /status request
+2025-05-14 10:54:21,712 - INFO - Received /status request
+2025-05-14 10:54:26,732 - INFO - Received /status request
+2025-05-14 10:54:31,723 - INFO - Received /status request
+2025-05-14 10:55:17,716 - INFO - Received /status request
+2025-05-14 10:55:45,055 - INFO - home: ROC=0.7145, SOC=60.626900000000035
+2025-05-14 10:55:45,056 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:55:45,057 - INFO - optimum home bat ROC = 0.5949712888888883
+2025-05-14 10:55:51,680 - WARNING - Wallbox code 401, Token expired, re-authenticating...
+2025-05-14 10:56:17,711 - INFO - Received /status request
+2025-05-14 10:57:15,060 - INFO - home: ROC=0.7465, SOC=60.7448
+2025-05-14 10:57:15,061 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:57:15,063 - INFO - optimum home bat ROC = 0.5931896888888889
+2025-05-14 10:57:15,899 - DEBUG - New charging rate set to 12 A
+2025-05-14 10:57:15,902 - INFO - New charging rate set to 2.88 kW
+2025-05-14 10:57:17,705 - INFO - Received /status request
+2025-05-14 10:58:17,703 - INFO - Received /status request
+2025-05-14 10:58:45,905 - INFO - home: ROC=0.746, SOC=60.98060000000004
+2025-05-14 10:58:45,906 - INFO - car : ROC=2.64, Status = charging
+2025-05-14 10:58:45,907 - INFO - optimum home bat ROC = 0.5896264888888882
+2025-05-14 10:59:17,709 - INFO - Received /status request
+2025-05-14 11:00:15,909 - INFO - home: ROC=0.5655, SOC=60.98060000000004
+2025-05-14 11:00:15,910 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:00:15,912 - INFO - optimum home bat ROC = 0.6633297999999993
+2025-05-14 11:00:17,703 - INFO - Received /status request
+2025-05-14 11:01:17,698 - INFO - Received /status request
+2025-05-14 11:01:45,914 - INFO - home: ROC=0.661, SOC=61.216399999999965
+2025-05-14 11:01:45,915 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:01:45,915 - INFO - optimum home bat ROC = 0.6593212000000007
+2025-05-14 11:02:17,686 - INFO - Received /status request
+2025-05-14 11:03:15,918 - INFO - home: ROC=0.666, SOC=61.33430000000004
+2025-05-14 11:03:15,919 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:03:15,922 - INFO - optimum home bat ROC = 0.6573168999999993
+2025-05-14 11:03:17,762 - INFO - Received /status request
+2025-05-14 11:03:26,134 - WARNING - Starting Energy Manager
+2025-05-14 11:03:58,530 - INFO - Received /status request
+2025-05-14 11:04:00,094 - INFO - Received /status request
+2025-05-14 11:04:00,097 - INFO - Received /get mode request
+2025-05-14 11:04:05,073 - INFO - Received /status request
+2025-05-14 11:04:10,096 - INFO - Received /status request
+2025-05-14 11:04:15,086 - INFO - Received /status request
+2025-05-14 11:04:20,093 - INFO - Received /status request
+2025-05-14 11:04:20,638 - INFO - Received /status request
+2025-05-14 11:04:20,639 - INFO - Received /get mode request
+2025-05-14 11:04:25,588 - INFO - Received /status request
+2025-05-14 11:04:30,609 - INFO - Received /status request
+2025-05-14 11:04:35,600 - INFO - Received /status request
+2025-05-14 11:04:40,597 - INFO - Received /status request
+2025-05-14 11:04:45,629 - INFO - Received /status request
+2025-05-14 11:04:50,592 - INFO - Received /status request
+2025-05-14 11:04:55,596 - INFO - Received /status request
+2025-05-14 11:05:00,593 - INFO - Received /status request
+2025-05-14 11:05:02,217 - INFO - New Charging Mode = solar
+2025-05-14 11:05:02,218 - INFO - home: ROC=0.6245, SOC=61.452200000000005
+2025-05-14 11:05:02,219 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:05:02,221 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:05:02,222 - INFO - optimum home bat ROC = 0.6553125999999999
+2025-05-14 11:05:02,608 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:05:02,609 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:05:05,598 - INFO - Received /status request
+2025-05-14 11:05:07,698 - INFO - Received /status request
+2025-05-14 11:05:07,711 - INFO - Received /get mode request
+2025-05-14 11:05:12,659 - INFO - Received /status request
+2025-05-14 11:05:17,658 - INFO - Received /status request
+2025-05-14 11:05:22,659 - INFO - Received /status request
+2025-05-14 11:05:27,658 - INFO - Received /status request
+2025-05-14 11:05:32,687 - INFO - Received /status request
+2025-05-14 11:05:37,688 - INFO - Received /status request
+2025-05-14 11:05:42,726 - INFO - Received /status request
+2025-05-14 11:05:47,684 - INFO - Received /status request
+2025-05-14 11:05:52,684 - INFO - Received /status request
+2025-05-14 11:05:57,700 - INFO - Received /status request
+2025-05-14 11:06:02,684 - INFO - Received /status request
+2025-05-14 11:06:08,354 - INFO - Received /status request
+2025-05-14 11:06:12,680 - INFO - Received /status request
+2025-05-14 11:06:17,699 - INFO - Received /status request
+2025-05-14 11:06:22,684 - INFO - Received /status request
+2025-05-14 11:06:27,684 - INFO - Received /status request
+2025-05-14 11:06:32,611 - INFO - home: ROC=0.629, SOC=61.57009999999997
+2025-05-14 11:06:32,612 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:06:32,613 - INFO - optimum home bat ROC = 0.6533083000000005
+2025-05-14 11:06:32,681 - INFO - Received /status request
+2025-05-14 11:06:37,693 - INFO - Received /status request
+2025-05-14 11:07:17,693 - INFO - Received /status request
+2025-05-14 11:08:02,616 - INFO - home: ROC=0.656, SOC=61.688000000000045
+2025-05-14 11:08:02,617 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:08:02,619 - INFO - optimum home bat ROC = 0.6513039999999992
+2025-05-14 11:08:08,914 - WARNING - Starting Energy Manager
+2025-05-14 11:08:17,700 - INFO - Received /status request
+2025-05-14 11:08:25,977 - INFO - Received /status request
+2025-05-14 11:08:27,657 - INFO - Received /status request
+2025-05-14 11:08:28,457 - INFO - Received /status request
+2025-05-14 11:08:28,460 - INFO - Received /get mode request
+2025-05-14 11:08:33,413 - INFO - Received /status request
+2025-05-14 11:08:38,422 - INFO - Received /status request
+2025-05-14 11:08:43,422 - INFO - Received /status request
+2025-05-14 11:08:48,424 - INFO - Received /status request
+2025-05-14 11:08:53,423 - INFO - Received /status request
+2025-05-14 11:08:58,691 - INFO - Received /status request
+2025-05-14 11:09:03,692 - INFO - Received /status request
+2025-05-14 11:09:08,431 - INFO - Received /status request
+2025-05-14 11:09:13,690 - INFO - Received /status request
+2025-05-14 11:09:18,679 - INFO - Received /status request
+2025-05-14 11:09:23,681 - INFO - Received /status request
+2025-05-14 11:09:28,688 - INFO - Received /status request
+2025-05-14 11:09:34,954 - INFO - Received /status request
+2025-05-14 11:09:38,678 - INFO - Received /status request
+2025-05-14 11:09:43,682 - INFO - Received /status request
+2025-05-14 11:09:44,542 - INFO - New Charging Mode = solar
+2025-05-14 11:09:44,544 - INFO - home: ROC=0.6695, SOC=61.80590000000001
+2025-05-14 11:09:44,544 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:09:44,546 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:09:44,547 - INFO - optimum home bat ROC = 0.6492996999999997
+2025-05-14 11:09:44,933 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:09:44,934 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:09:48,691 - INFO - Received /status request
+2025-05-14 11:09:53,699 - INFO - Received /status request
+2025-05-14 11:09:58,693 - INFO - Received /status request
+2025-05-14 11:10:03,685 - INFO - Received /status request
+2025-05-14 11:10:08,701 - INFO - Received /status request
+2025-05-14 11:10:17,702 - INFO - Received /status request
+2025-05-14 11:11:14,938 - INFO - home: ROC=0.6665, SOC=61.92379999999997
+2025-05-14 11:11:14,939 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:11:14,941 - INFO - optimum home bat ROC = 0.6472954000000004
+2025-05-14 11:11:17,698 - INFO - Received /status request
+2025-05-14 11:12:17,692 - INFO - Received /status request
+2025-05-14 11:12:29,877 - INFO - Received /status request
+2025-05-14 11:12:34,420 - INFO - Received /status request
+2025-05-14 11:12:34,502 - INFO - Received /status request
+2025-05-14 11:12:34,539 - INFO - Received /get mode request
+2025-05-14 11:12:39,463 - INFO - Received /status request
+2025-05-14 11:12:44,474 - INFO - Received /status request
+2025-05-14 11:12:44,943 - INFO - home: ROC=0.667, SOC=62.04170000000005
+2025-05-14 11:12:44,944 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:12:44,945 - INFO - optimum home bat ROC = 0.6452910999999992
+2025-05-14 11:12:48,621 - INFO - Received /set mode request
+2025-05-14 11:12:48,657 - INFO - Received /get mode request
+2025-05-14 11:12:49,477 - INFO - Received /status request
+2025-05-14 11:12:54,469 - INFO - Received /status request
+2025-05-14 11:12:59,458 - INFO - Received /status request
+2025-05-14 11:13:04,472 - INFO - Received /status request
+2025-05-14 11:13:09,461 - INFO - Received /status request
+2025-05-14 11:13:14,479 - INFO - Received /status request
+2025-05-14 11:13:19,481 - INFO - Received /status request
+2025-05-14 11:13:24,469 - INFO - Received /status request
+2025-05-14 11:13:29,464 - INFO - Received /status request
+2025-05-14 11:13:34,464 - INFO - Received /status request
+2025-05-14 11:13:39,463 - INFO - Received /status request
+2025-05-14 11:13:44,686 - INFO - Received /status request
+2025-05-14 11:13:49,685 - INFO - Received /status request
+2025-05-14 11:13:54,694 - INFO - Received /status request
+2025-05-14 11:13:59,678 - INFO - Received /status request
+2025-05-14 11:14:04,678 - INFO - Received /status request
+2025-05-14 11:14:09,677 - INFO - Received /status request
+2025-05-14 11:14:14,676 - INFO - Received /status request
+2025-05-14 11:14:14,948 - INFO - New Charging Mode = solar_and_night
+2025-05-14 11:14:14,948 - INFO - home: ROC=0.692, SOC=62.277499999999975
+2025-05-14 11:14:14,950 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:14:14,951 - INFO - optimum home bat ROC = 0.6412825000000004
+2025-05-14 11:14:19,684 - INFO - Received /status request
+2025-05-14 11:14:24,681 - INFO - Received /status request
+2025-05-14 11:14:29,677 - INFO - Received /status request
+2025-05-14 11:14:34,675 - INFO - Received /status request
+2025-05-14 11:14:39,686 - INFO - Received /status request
+2025-05-14 11:14:44,686 - INFO - Received /status request
+2025-05-14 11:14:49,677 - INFO - Received /status request
+2025-05-14 11:14:54,680 - INFO - Received /status request
+2025-05-14 11:14:59,680 - INFO - Received /status request
+2025-05-14 11:15:17,686 - INFO - Received /status request
+2025-05-14 11:15:22,479 - INFO - Received /status request
+2025-05-14 11:15:24,699 - INFO - Received /status request
+2025-05-14 11:15:29,695 - INFO - Received /status request
+2025-05-14 11:15:34,730 - INFO - Received /status request
+2025-05-14 11:15:39,677 - INFO - Received /status request
+2025-05-14 11:15:44,686 - INFO - Received /status request
+2025-05-14 11:15:44,953 - INFO - home: ROC=0.7025, SOC=62.39540000000005
+2025-05-14 11:15:44,954 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:15:44,955 - INFO - optimum home bat ROC = 0.639278199999999
+2025-05-14 11:15:49,668 - INFO - Received /status request
+2025-05-14 11:15:54,677 - INFO - Received /status request
+2025-05-14 11:15:59,692 - INFO - Received /status request
+2025-05-14 11:16:04,676 - INFO - Received /status request
+2025-05-14 11:16:09,671 - INFO - Received /status request
+2025-05-14 11:16:14,689 - INFO - Received /status request
+2025-05-14 11:16:19,674 - INFO - Received /status request
+2025-05-14 11:17:14,957 - INFO - home: ROC=0.7, SOC=62.513300000000015
+2025-05-14 11:17:14,958 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:17:14,960 - INFO - optimum home bat ROC = 0.6372738999999997
+2025-05-14 11:17:17,676 - INFO - Received /status request
+2025-05-14 11:18:17,691 - INFO - Received /status request
+2025-05-14 11:18:38,860 - WARNING - Starting Energy Manager
+2025-05-14 11:18:43,595 - INFO - Received /status request
+2025-05-14 11:18:44,456 - INFO - Received /status request
+2025-05-14 11:18:45,759 - INFO - Received /status request
+2025-05-14 11:18:45,763 - INFO - Received /get mode request
+2025-05-14 11:18:50,726 - INFO - Received /status request
+2025-05-14 11:18:53,289 - INFO - Received /status request
+2025-05-14 11:18:53,292 - INFO - Received /get mode request
+2025-05-14 11:18:58,252 - INFO - Received /status request
+2025-05-14 11:19:03,676 - INFO - Received /status request
+2025-05-14 11:19:08,687 - INFO - Received /status request
+2025-05-14 11:19:13,695 - INFO - Received /status request
+2025-05-14 11:19:18,705 - INFO - Received /status request
+2025-05-14 11:19:23,672 - INFO - Received /status request
+2025-05-14 11:19:28,683 - INFO - Received /status request
+2025-05-14 11:19:33,685 - INFO - Received /status request
+2025-05-14 11:19:38,672 - INFO - Received /status request
+2025-05-14 11:19:43,681 - INFO - Received /status request
+2025-05-14 11:19:48,678 - INFO - Received /status request
+2025-05-14 11:19:53,672 - INFO - Received /status request
+2025-05-14 11:19:58,976 - INFO - Received /status request
+2025-05-14 11:20:14,308 - INFO - Received /status request
+2025-05-14 11:20:14,502 - INFO - New Charging Mode = solar
+2025-05-14 11:20:14,504 - INFO - home: ROC=0.714, SOC=62.749100000000055
+2025-05-14 11:20:14,505 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:20:14,506 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:20:14,507 - INFO - optimum home bat ROC = 0.633265299999999
+2025-05-14 11:20:14,886 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:20:14,886 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:20:18,670 - INFO - Received /status request
+2025-05-14 11:20:23,665 - INFO - Received /status request
+2025-05-14 11:20:28,672 - INFO - Received /status request
+2025-05-14 11:20:33,667 - INFO - Received /status request
+2025-05-14 11:20:38,683 - INFO - Received /status request
+2025-05-14 11:20:43,703 - INFO - Received /status request
+2025-05-14 11:20:48,669 - INFO - Received /status request
+2025-05-14 11:20:53,671 - INFO - Received /status request
+2025-05-14 11:20:58,668 - INFO - Received /status request
+2025-05-14 11:21:03,670 - INFO - Received /status request
+2025-05-14 11:21:08,684 - INFO - Received /status request
+2025-05-14 11:21:13,674 - INFO - Received /status request
+2025-05-14 11:21:38,159 - INFO - Received /status request
+2025-05-14 11:21:43,105 - INFO - Received /status request
+2025-05-14 11:21:43,108 - INFO - Received /get mode request
+2025-05-14 11:21:44,889 - INFO - home: ROC=0.725, SOC=62.86700000000002
+2025-05-14 11:21:44,889 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:21:44,891 - INFO - optimum home bat ROC = 0.6312609999999997
+2025-05-14 11:21:48,093 - INFO - Received /status request
+2025-05-14 11:21:52,025 - INFO - Received /status request
+2025-05-14 11:21:53,091 - INFO - Received /status request
+2025-05-14 11:21:56,271 - INFO - Received /status request
+2025-05-14 11:21:58,091 - INFO - Received /status request
+2025-05-14 11:22:01,281 - INFO - Received /status request
+2025-05-14 11:22:03,091 - INFO - Received /status request
+2025-05-14 11:22:06,308 - INFO - Received /status request
+2025-05-14 11:22:08,115 - INFO - Received /status request
+2025-05-14 11:22:11,370 - INFO - Received /status request
+2025-05-14 11:22:13,093 - INFO - Received /status request
+2025-05-14 11:22:16,304 - INFO - Received /status request
+2025-05-14 11:22:18,120 - INFO - Received /status request
+2025-05-14 11:22:21,276 - INFO - Received /status request
+2025-05-14 11:22:23,084 - INFO - Received /status request
+2025-05-14 11:22:26,337 - INFO - Received /status request
+2025-05-14 11:22:28,675 - INFO - Received /status request
+2025-05-14 11:22:31,314 - INFO - Received /status request
+2025-05-14 11:22:33,681 - INFO - Received /status request
+2025-05-14 11:22:36,337 - INFO - Received /status request
+2025-05-14 11:22:38,677 - INFO - Received /status request
+2025-05-14 11:22:41,328 - INFO - Received /status request
+2025-05-14 11:22:43,667 - INFO - Received /status request
+2025-05-14 11:22:46,293 - INFO - Received /status request
+2025-05-14 11:22:48,666 - INFO - Received /status request
+2025-05-14 11:22:51,332 - INFO - Received /status request
+2025-05-14 11:22:53,666 - INFO - Received /status request
+2025-05-14 11:22:56,360 - INFO - Received /status request
+2025-05-14 11:22:58,667 - INFO - Received /status request
+2025-05-14 11:22:59,188 - INFO - Received /status request
+2025-05-14 11:22:59,189 - INFO - Received /get mode request
+2025-05-14 11:23:03,674 - INFO - Received /status request
+2025-05-14 11:23:04,218 - INFO - Received /status request
+2025-05-14 11:23:08,708 - INFO - Received /status request
+2025-05-14 11:23:09,262 - INFO - Received /status request
+2025-05-14 11:23:13,665 - INFO - Received /status request
+2025-05-14 11:23:14,304 - INFO - Received /status request
+2025-05-14 11:23:14,894 - INFO - home: ROC=0.739, SOC=63.10280000000006
+2025-05-14 11:23:14,895 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:23:14,898 - INFO - optimum home bat ROC = 0.6272523999999989
+2025-05-14 11:23:18,663 - INFO - Received /status request
+2025-05-14 11:23:19,227 - INFO - Received /status request
+2025-05-14 11:23:23,670 - INFO - Received /status request
+2025-05-14 11:23:24,251 - INFO - Received /status request
+2025-05-14 11:23:29,250 - INFO - Received /status request
+2025-05-14 11:23:34,233 - INFO - Received /status request
+2025-05-14 11:23:39,073 - INFO - Received /status request
+2025-05-14 11:23:39,229 - INFO - Received /status request
+2025-05-14 11:23:43,664 - INFO - Received /status request
+2025-05-14 11:23:44,308 - INFO - Received /status request
+2025-05-14 11:23:48,668 - INFO - Received /status request
+2025-05-14 11:23:49,224 - INFO - Received /status request
+2025-05-14 11:23:53,669 - INFO - Received /status request
+2025-05-14 11:23:54,239 - INFO - Received /status request
+2025-05-14 11:23:58,670 - INFO - Received /status request
+2025-05-14 11:23:59,228 - INFO - Received /status request
+2025-05-14 11:24:04,464 - INFO - Received /status request
+2025-05-14 11:24:04,477 - INFO - Received /status request
+2025-05-14 11:24:08,669 - INFO - Received /status request
+2025-05-14 11:24:09,209 - INFO - Received /status request
+2025-05-14 11:24:13,658 - INFO - Received /status request
+2025-05-14 11:24:18,679 - INFO - Received /status request
+2025-05-14 11:24:23,752 - INFO - Received /status request
+2025-05-14 11:24:28,676 - INFO - Received /status request
+2025-05-14 11:24:33,664 - INFO - Received /status request
+2025-05-14 11:24:38,665 - INFO - Received /status request
+2025-05-14 11:24:44,902 - INFO - home: ROC=0.7505, SOC=63.22070000000002
+2025-05-14 11:24:44,902 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:24:44,903 - INFO - optimum home bat ROC = 0.6252480999999996
+2025-05-14 11:24:45,695 - DEBUG - New charging rate set to 13 A
+2025-05-14 11:24:45,696 - INFO - New charging rate set to 3.12 kW
+2025-05-14 11:24:52,319 - INFO - Received /status request
+2025-05-14 11:24:52,363 - INFO - Received /status request
+2025-05-14 11:24:52,866 - INFO - Received /status request
+2025-05-14 11:24:52,882 - INFO - Received /get mode request
+2025-05-14 11:24:57,302 - INFO - Received /status request
+2025-05-14 11:24:57,310 - INFO - Received /get mode request
+2025-05-14 11:25:02,318 - INFO - Received /status request
+2025-05-14 11:25:07,329 - INFO - Received /status request
+2025-05-14 11:25:12,346 - INFO - Received /status request
+2025-05-14 11:25:17,350 - INFO - Received /status request
+2025-05-14 11:25:17,666 - INFO - Received /status request
+2025-05-14 11:25:22,342 - INFO - Received /status request
+2025-05-14 11:25:27,350 - INFO - Received /status request
+2025-05-14 11:25:32,358 - INFO - Received /status request
+2025-05-14 11:25:37,343 - INFO - Received /status request
+2025-05-14 11:25:42,358 - INFO - Received /status request
+2025-05-14 11:25:47,357 - INFO - Received /status request
+2025-05-14 11:25:52,349 - INFO - Received /status request
+2025-05-14 11:25:57,338 - INFO - Received /status request
+2025-05-14 11:26:15,699 - INFO - home: ROC=0.717, SOC=63.338599999999985
+2025-05-14 11:26:15,700 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:26:15,701 - INFO - optimum home bat ROC = 0.6232438000000001
+2025-05-14 11:26:16,512 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:26:16,513 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:26:17,670 - INFO - Received /status request
+2025-05-14 11:27:02,387 - WARNING - Starting Energy Manager
+2025-05-14 11:27:06,335 - INFO - Received /status request
+2025-05-14 11:27:08,126 - INFO - Received /status request
+2025-05-14 11:27:08,626 - INFO - Received /status request
+2025-05-14 11:27:08,629 - INFO - Received /get mode request
+2025-05-14 11:27:13,586 - INFO - Received /status request
+2025-05-14 11:27:18,587 - INFO - Received /status request
+2025-05-14 11:27:23,582 - INFO - Received /status request
+2025-05-14 11:27:28,663 - INFO - Received /status request
+2025-05-14 11:27:33,667 - INFO - Received /status request
+2025-05-14 11:27:38,662 - INFO - Received /status request
+2025-05-14 11:27:43,663 - INFO - Received /status request
+2025-05-14 11:27:48,672 - INFO - Received /status request
+2025-05-14 11:27:53,668 - INFO - Received /status request
+2025-05-14 11:27:58,664 - INFO - Received /status request
+2025-05-14 11:28:03,665 - INFO - Received /status request
+2025-05-14 11:28:08,663 - INFO - Received /status request
+2025-05-14 11:28:13,670 - INFO - Received /status request
+2025-05-14 11:28:18,676 - INFO - Received /status request
+2025-05-14 11:28:23,658 - INFO - Received /status request
+2025-05-14 11:28:37,988 - INFO - New Charging Mode = solar
+2025-05-14 11:28:37,990 - INFO - home: ROC=0.668, SOC=63.574400000000026
+2025-05-14 11:28:37,992 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:28:37,994 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:28:37,995 - INFO - optimum home bat ROC = 0.6192351999999994
+2025-05-14 11:28:39,483 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:28:39,484 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:29:03,668 - INFO - Received /status request
+2025-05-14 11:29:08,678 - INFO - Received /status request
+2025-05-14 11:29:13,657 - INFO - Received /status request
+2025-05-14 11:29:18,686 - INFO - Received /status request
+2025-05-14 11:29:23,656 - INFO - Received /status request
+2025-05-14 11:29:28,657 - INFO - Received /status request
+2025-05-14 11:29:33,675 - INFO - Received /status request
+2025-05-14 11:29:38,670 - INFO - Received /status request
+2025-05-14 11:29:43,663 - INFO - Received /status request
+2025-05-14 11:29:48,670 - INFO - Received /status request
+2025-05-14 11:29:53,667 - INFO - Received /status request
+2025-05-14 11:29:58,657 - INFO - Received /status request
+2025-05-14 11:30:03,668 - INFO - Received /status request
+2025-05-14 11:30:09,488 - INFO - home: ROC=0.6875, SOC=63.69229999999999
+2025-05-14 11:30:09,489 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:30:09,491 - INFO - optimum home bat ROC = 0.6172309000000001
+2025-05-14 11:30:17,671 - INFO - Received /status request
+2025-05-14 11:31:17,668 - INFO - Received /status request
+2025-05-14 11:31:39,494 - INFO - home: ROC=0.685, SOC=63.810200000000066
+2025-05-14 11:31:39,495 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:31:39,496 - INFO - optimum home bat ROC = 0.615226599999999
+2025-05-14 11:32:17,685 - INFO - Received /status request
+2025-05-14 11:33:09,498 - INFO - home: ROC=0.668, SOC=63.92810000000003
+2025-05-14 11:33:09,499 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:33:09,500 - INFO - optimum home bat ROC = 0.6132222999999994
+2025-05-14 11:33:17,677 - INFO - Received /status request
+2025-05-14 11:33:44,038 - WARNING - Starting Energy Manager
+2025-05-14 11:34:17,661 - INFO - Received /status request
+2025-05-14 11:34:39,329 - INFO - Received /status request
+2025-05-14 11:34:41,160 - INFO - Received /status request
+2025-05-14 11:34:41,162 - INFO - Received /get mode request
+2025-05-14 11:34:47,120 - INFO - Received /status request
+2025-05-14 11:34:51,112 - INFO - Received /status request
+2025-05-14 11:34:56,117 - INFO - Received /status request
+2025-05-14 11:35:01,659 - INFO - Received /status request
+2025-05-14 11:35:06,660 - INFO - Received /status request
+2025-05-14 11:35:11,656 - INFO - Received /status request
+2025-05-14 11:35:16,675 - INFO - Received /status request
+2025-05-14 11:35:20,179 - INFO - New Charging Mode = solar
+2025-05-14 11:35:20,181 - INFO - home: ROC=0.7435, SOC=64.16389999999996
+2025-05-14 11:35:20,183 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:35:20,184 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:35:20,186 - INFO - optimum home bat ROC = 0.6092137000000009
+2025-05-14 11:35:21,112 - DEBUG - New charging rate set to 13 A
+2025-05-14 11:35:21,114 - INFO - New charging rate set to 3.12 kW
+2025-05-14 11:35:21,655 - INFO - Received /status request
+2025-05-14 11:35:26,657 - INFO - Received /status request
+2025-05-14 11:35:31,655 - INFO - Received /status request
+2025-05-14 11:35:36,659 - INFO - Received /status request
+2025-05-14 11:35:41,675 - INFO - Received /status request
+2025-05-14 11:35:46,690 - INFO - Received /status request
+2025-05-14 11:35:51,661 - INFO - Received /status request
+2025-05-14 11:35:56,656 - INFO - Received /status request
+2025-05-14 11:36:01,657 - INFO - Received /status request
+2025-05-14 11:36:17,669 - INFO - Received /status request
+2025-05-14 11:36:51,117 - INFO - home: ROC=0.7725, SOC=64.28180000000003
+2025-05-14 11:36:51,118 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:36:51,119 - INFO - optimum home bat ROC = 0.6072093999999995
+2025-05-14 11:37:17,666 - INFO - Received /status request
+2025-05-14 11:38:17,664 - INFO - Received /status request
+2025-05-14 11:38:21,122 - INFO - home: ROC=0.525, SOC=64.3997
+2025-05-14 11:38:21,123 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:38:21,124 - INFO - optimum home bat ROC = 0.6052051
+2025-05-14 11:39:17,651 - INFO - Received /status request
+2025-05-14 11:39:24,820 - WARNING - Starting Energy Manager
+2025-05-14 11:39:30,002 - INFO - Received /status request
+2025-05-14 11:39:31,117 - INFO - Received /status request
+2025-05-14 11:39:33,436 - INFO - Received /status request
+2025-05-14 11:39:33,440 - INFO - Received /get mode request
+2025-05-14 11:39:38,379 - INFO - Received /status request
+2025-05-14 11:39:43,380 - INFO - Received /status request
+2025-05-14 11:39:48,386 - INFO - Received /status request
+2025-05-14 11:39:53,659 - INFO - Received /status request
+2025-05-14 11:39:58,646 - INFO - Received /status request
+2025-05-14 11:40:03,653 - INFO - Received /status request
+2025-05-14 11:40:08,651 - INFO - Received /status request
+2025-05-14 11:40:13,660 - INFO - Received /status request
+2025-05-14 11:40:18,657 - INFO - Received /status request
+2025-05-14 11:40:23,651 - INFO - Received /status request
+2025-05-14 11:40:28,436 - INFO - Received /status request
+2025-05-14 11:40:33,396 - INFO - Received /status request
+2025-05-14 11:40:38,645 - INFO - Received /status request
+2025-05-14 11:40:43,653 - INFO - Received /status request
+2025-05-14 11:40:48,657 - INFO - Received /status request
+2025-05-14 11:40:53,666 - INFO - Received /status request
+2025-05-14 11:40:58,652 - INFO - Received /status request
+2025-05-14 11:41:00,449 - INFO - New Charging Mode = solar
+2025-05-14 11:41:00,450 - INFO - home: ROC=0.561, SOC=64.63550000000004
+2025-05-14 11:41:00,451 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:41:00,452 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:41:00,453 - INFO - optimum home bat ROC = 0.6011964999999994
+2025-05-14 11:41:00,846 - DEBUG - New charging rate set to 13 A
+2025-05-14 11:41:00,847 - INFO - New charging rate set to 3.12 kW
+2025-05-14 11:41:03,649 - INFO - Received /status request
+2025-05-14 11:41:08,645 - INFO - Received /status request
+2025-05-14 11:41:13,649 - INFO - Received /status request
+2025-05-14 11:41:18,654 - INFO - Received /status request
+2025-05-14 11:41:23,377 - INFO - Received /status request
+2025-05-14 11:41:28,427 - INFO - Received /status request
+2025-05-14 11:41:33,384 - INFO - Received /status request
+2025-05-14 11:41:38,653 - INFO - Received /status request
+2025-05-14 11:41:43,653 - INFO - Received /status request
+2025-05-14 11:41:48,653 - INFO - Received /status request
+2025-05-14 11:41:53,379 - INFO - Received /status request
+2025-05-14 11:41:58,655 - INFO - Received /status request
+2025-05-14 11:42:03,897 - INFO - Received /status request
+2025-05-14 11:42:08,638 - INFO - Received /status request
+2025-05-14 11:42:16,032 - WARNING - Starting Energy Manager
+2025-05-14 11:42:18,376 - INFO - Received /status request
+2025-05-14 11:42:23,286 - INFO - Received /status request
+2025-05-14 11:42:23,290 - INFO - Received /get mode request
+2025-05-14 11:42:28,246 - INFO - Received /status request
+2025-05-14 11:42:33,243 - INFO - Received /status request
+2025-05-14 11:42:38,253 - INFO - Received /status request
+2025-05-14 11:42:43,245 - INFO - Received /status request
+2025-05-14 11:42:48,245 - INFO - Received /status request
+2025-05-14 11:42:53,241 - INFO - Received /status request
+2025-05-14 11:42:58,247 - INFO - Received /status request
+2025-05-14 11:43:03,244 - INFO - Received /status request
+2025-05-14 11:43:08,240 - INFO - Received /status request
+2025-05-14 11:43:13,246 - INFO - Received /status request
+2025-05-14 11:43:18,243 - INFO - Received /status request
+2025-05-14 11:43:23,261 - INFO - Received /status request
+2025-05-14 11:43:28,242 - INFO - Received /status request
+2025-05-14 11:43:33,243 - INFO - Received /status request
+2025-05-14 11:43:38,244 - INFO - Received /status request
+2025-05-14 11:43:43,239 - INFO - Received /status request
+2025-05-14 11:43:49,293 - INFO - Received /status request
+2025-05-14 11:43:51,692 - INFO - New Charging Mode = solar
+2025-05-14 11:43:51,693 - INFO - home: ROC=0.5395, SOC=64.7534
+2025-05-14 11:43:51,694 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:43:51,695 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:43:51,697 - INFO - optimum home bat ROC = 0.5991922000000001
+2025-05-14 11:43:52,086 - DEBUG - New charging rate set to 13 A
+2025-05-14 11:43:52,087 - INFO - New charging rate set to 3.12 kW
+2025-05-14 11:43:53,232 - INFO - Received /status request
+2025-05-14 11:43:55,453 - INFO - Received /status request
+2025-05-14 11:43:58,309 - INFO - Received /status request
+2025-05-14 11:43:59,655 - INFO - Received /set mode request
+2025-05-14 11:43:59,682 - INFO - Received /status request
+2025-05-14 11:43:59,734 - INFO - Received /get mode request
+2025-05-14 11:44:02,933 - INFO - Received /status request
+2025-05-14 11:44:02,939 - INFO - Received /get mode request
+2025-05-14 11:44:03,247 - INFO - Received /status request
+2025-05-14 11:44:07,943 - INFO - Received /status request
+2025-05-14 11:44:08,239 - INFO - Received /status request
+2025-05-14 11:44:10,448 - INFO - Received /set mode request
+2025-05-14 11:44:10,503 - INFO - Received /get mode request
+2025-05-14 11:44:12,944 - INFO - Received /status request
+2025-05-14 11:44:13,263 - INFO - Received /status request
+2025-05-14 11:44:18,238 - INFO - Received /status request
+2025-05-14 11:44:18,300 - INFO - Received /status request
+2025-05-14 11:44:23,239 - INFO - Received /status request
+2025-05-14 11:44:28,238 - INFO - Received /status request
+2025-05-14 11:44:33,233 - INFO - Received /status request
+2025-05-14 11:44:38,235 - INFO - Received /status request
+2025-05-14 11:44:43,239 - INFO - Received /status request
+2025-05-14 11:44:48,282 - INFO - Received /status request
+2025-05-14 11:44:53,242 - INFO - Received /status request
+2025-05-14 11:44:58,237 - INFO - Received /status request
+2025-05-14 11:45:03,232 - INFO - Received /status request
+2025-05-14 11:45:08,243 - INFO - Received /status request
+2025-05-14 11:45:13,240 - INFO - Received /status request
+2025-05-14 11:45:18,234 - INFO - Received /status request
+2025-05-14 11:45:22,090 - INFO - New Charging Mode = manual
+2025-05-14 11:45:22,090 - INFO - home: ROC=0.5135, SOC=64.87129999999996
+2025-05-14 11:45:22,091 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:45:23,240 - INFO - Received /status request
+2025-05-14 11:45:28,252 - INFO - Received /status request
+2025-05-14 11:45:33,240 - INFO - Received /status request
+2025-05-14 11:45:39,486 - INFO - Received /status request
+2025-05-14 11:45:39,683 - INFO - Received /status request
+2025-05-14 11:45:39,686 - INFO - Received /status request
+2025-05-14 11:45:39,690 - INFO - Received /status request
+2025-05-14 11:45:39,695 - INFO - Received /status request
+2025-05-14 11:45:39,704 - INFO - Received /status request
+2025-05-14 11:45:39,707 - INFO - Received /status request
+2025-05-14 11:45:41,661 - INFO - Received /set mode request
+2025-05-14 11:45:41,704 - INFO - Received /get mode request
+2025-05-14 11:45:42,966 - INFO - Received /status request
+2025-05-14 11:45:43,233 - INFO - Received /status request
+2025-05-14 11:45:47,984 - INFO - Received /status request
+2025-05-14 11:45:48,307 - INFO - Received /status request
+2025-05-14 11:45:53,987 - INFO - Received /status request
+2025-05-14 11:45:53,997 - INFO - Received /status request
+2025-05-14 11:45:57,955 - INFO - Received /status request
+2025-05-14 11:45:58,233 - INFO - Received /status request
+2025-05-14 11:46:02,979 - INFO - Received /status request
+2025-05-14 11:46:03,283 - INFO - Received /status request
+2025-05-14 11:46:07,980 - INFO - Received /status request
+2025-05-14 11:46:08,251 - INFO - Received /status request
+2025-05-14 11:46:12,952 - INFO - Received /status request
+2025-05-14 11:46:13,231 - INFO - Received /status request
+2025-05-14 11:46:18,020 - INFO - Received /status request
+2025-05-14 11:46:18,239 - INFO - Received /status request
+2025-05-14 11:46:23,030 - INFO - Received /status request
+2025-05-14 11:46:23,233 - INFO - Received /status request
+2025-05-14 11:46:27,959 - INFO - Received /status request
+2025-05-14 11:46:28,236 - INFO - Received /status request
+2025-05-14 11:46:32,997 - INFO - Received /status request
+2025-05-14 11:46:33,257 - INFO - Received /status request
+2025-05-14 11:46:37,978 - INFO - Received /status request
+2025-05-14 11:46:38,228 - INFO - Received /status request
+2025-05-14 11:46:42,972 - INFO - Received /status request
+2025-05-14 11:46:43,238 - INFO - Received /status request
+2025-05-14 11:46:48,150 - INFO - Received /status request
+2025-05-14 11:46:48,221 - INFO - Received /status request
+2025-05-14 11:46:52,097 - INFO - New Charging Mode = solar
+2025-05-14 11:46:52,099 - INFO - home: ROC=3.5005, SOC=65.22499999999997
+2025-05-14 11:46:52,100 - INFO - car : ROC=3.12, Status = idle
+2025-05-14 11:46:52,102 - INFO - Transitioning to state: day-not_full-idle (mode: solar)
+2025-05-14 11:46:52,104 - INFO - optimum home bat ROC = 0.5911750000000006
+2025-05-14 11:46:52,899 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:46:52,900 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:46:53,272 - INFO - Received /status request
+2025-05-14 11:46:53,740 - INFO - Charging resumed
+2025-05-14 11:46:58,626 - INFO - Received /status request
+2025-05-14 11:47:03,625 - INFO - Received /status request
+2025-05-14 11:47:08,653 - INFO - Received /status request
+2025-05-14 11:47:13,631 - INFO - Received /status request
+2025-05-14 11:47:18,631 - INFO - Received /status request
+2025-05-14 11:47:23,626 - INFO - Received /status request
+2025-05-14 11:47:28,658 - INFO - Received /status request
+2025-05-14 11:47:33,641 - INFO - Received /status request
+2025-05-14 11:47:38,637 - INFO - Received /status request
+2025-05-14 11:47:43,687 - INFO - Received /status request
+2025-05-14 11:47:48,630 - INFO - Received /status request
+2025-05-14 11:47:53,652 - INFO - Received /status request
+2025-05-14 11:48:05,083 - INFO - Received /status request
+2025-05-14 11:48:08,230 - INFO - Received /status request
+2025-05-14 11:48:13,226 - INFO - Received /status request
+2025-05-14 11:48:18,643 - INFO - Received /status request
+2025-05-14 11:48:23,632 - INFO - Received /status request
+2025-05-14 11:48:23,743 - INFO - home: ROC=3.4415, SOC=65.93239999999997
+2025-05-14 11:48:23,744 - INFO - car : ROC=3.12, Status = idle
+2025-05-14 11:48:23,747 - INFO - optimum home bat ROC = 0.5791492000000005
+2025-05-14 11:48:29,203 - INFO - Received /status request
+2025-05-14 11:48:33,618 - INFO - Received /status request
+2025-05-14 11:48:38,630 - INFO - Received /status request
+2025-05-14 11:48:43,228 - INFO - Received /status request
+2025-05-14 11:48:48,225 - INFO - Received /status request
+2025-05-14 11:48:53,622 - INFO - Received /status request
+2025-05-14 11:48:58,629 - INFO - Received /status request
+2025-05-14 11:49:03,632 - INFO - Received /status request
+2025-05-14 11:49:08,629 - INFO - Received /status request
+2025-05-14 11:49:13,629 - INFO - Received /status request
+2025-05-14 11:49:18,627 - INFO - Received /status request
+2025-05-14 11:49:23,622 - INFO - Received /status request
+2025-05-14 11:49:28,632 - INFO - Received /status request
+2025-05-14 11:49:33,625 - INFO - Received /status request
+2025-05-14 11:49:38,651 - INFO - Received /status request
+2025-05-14 11:49:43,622 - INFO - Received /status request
+2025-05-14 11:49:48,628 - INFO - Received /status request
+2025-05-14 11:49:53,750 - INFO - home: ROC=0.7915, SOC=66.16820000000001
+2025-05-14 11:49:53,751 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 11:49:53,752 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:49:53,753 - INFO - optimum home bat ROC = 0.5751405999999998
+2025-05-14 11:49:54,732 - DEBUG - New charging rate set to 13 A
+2025-05-14 11:49:54,733 - INFO - New charging rate set to 3.12 kW
+2025-05-14 11:50:17,172 - WARNING - Starting Energy Manager
+2025-05-14 11:50:17,626 - INFO - Received /status request
+2025-05-14 11:50:21,507 - INFO - Received /status request
+2025-05-14 11:50:23,230 - INFO - Received /status request
+2025-05-14 11:50:28,237 - INFO - Received /status request
+2025-05-14 11:50:33,222 - INFO - Received /status request
+2025-05-14 11:50:38,228 - INFO - Received /status request
+2025-05-14 11:50:43,630 - INFO - Received /status request
+2025-05-14 11:50:48,620 - INFO - Received /status request
+2025-05-14 11:50:53,613 - INFO - Received /status request
+2025-05-14 11:50:58,620 - INFO - Received /status request
+2025-05-14 11:51:03,615 - INFO - Received /status request
+2025-05-14 11:51:08,622 - INFO - Received /status request
+2025-05-14 11:51:13,219 - INFO - Received /status request
+2025-05-14 11:51:13,786 - INFO - Received /status request
+2025-05-14 11:51:13,795 - INFO - Received /get mode request
+2025-05-14 11:51:18,747 - INFO - Received /status request
+2025-05-14 11:51:23,752 - INFO - Received /status request
+2025-05-14 11:51:28,753 - INFO - Received /status request
+2025-05-14 11:51:33,751 - INFO - Received /status request
+2025-05-14 11:51:38,748 - INFO - Received /status request
+2025-05-14 11:51:43,808 - INFO - Received /status request
+2025-05-14 11:51:48,763 - INFO - Received /status request
+2025-05-14 11:51:53,307 - INFO - New Charging Mode = solar
+2025-05-14 11:51:53,309 - INFO - home: ROC=0.551, SOC=66.40400000000005
+2025-05-14 11:51:53,310 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:51:53,311 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:51:53,313 - INFO - optimum home bat ROC = 0.5711319999999991
+2025-05-14 11:51:53,715 - DEBUG - New charging rate set to 13 A
+2025-05-14 11:51:53,716 - INFO - New charging rate set to 3.12 kW
+2025-05-14 11:51:53,753 - INFO - Received /status request
+2025-05-14 11:51:58,758 - INFO - Received /status request
+2025-05-14 11:52:03,751 - INFO - Received /status request
+2025-05-14 11:52:09,614 - INFO - Received /status request
+2025-05-14 11:52:14,613 - INFO - Received /status request
+2025-05-14 11:52:19,632 - INFO - Received /status request
+2025-05-14 11:52:24,616 - INFO - Received /status request
+2025-05-14 11:52:29,637 - INFO - Received /status request
+2025-05-14 11:52:34,625 - INFO - Received /status request
+2025-05-14 11:52:39,617 - INFO - Received /status request
+2025-05-14 11:52:44,613 - INFO - Received /status request
+2025-05-14 11:52:49,613 - INFO - Received /status request
+2025-05-14 11:52:54,618 - INFO - Received /status request
+2025-05-14 11:52:59,614 - INFO - Received /status request
+2025-05-14 11:53:03,787 - INFO - Received /status request
+2025-05-14 11:53:08,758 - INFO - Received /status request
+2025-05-14 11:53:13,764 - INFO - Received /status request
+2025-05-14 11:53:18,746 - INFO - Received /status request
+2025-05-14 11:53:23,719 - INFO - home: ROC=0.546, SOC=66.52190000000002
+2025-05-14 11:53:23,720 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:53:23,722 - INFO - optimum home bat ROC = 0.5691276999999998
+2025-05-14 11:53:23,753 - INFO - Received /status request
+2025-05-14 11:53:28,745 - INFO - Received /status request
+2025-05-14 11:53:33,747 - INFO - Received /status request
+2025-05-14 11:53:38,749 - INFO - Received /status request
+2025-05-14 11:53:43,758 - INFO - Received /status request
+2025-05-14 11:53:49,614 - INFO - Received /status request
+2025-05-14 11:53:54,624 - INFO - Received /status request
+2025-05-14 11:53:59,615 - INFO - Received /status request
+2025-05-14 11:54:04,613 - INFO - Received /status request
+2025-05-14 11:54:09,630 - INFO - Received /status request
+2025-05-14 11:54:14,624 - INFO - Received /status request
+2025-05-14 11:54:19,621 - INFO - Received /status request
+2025-05-14 11:54:24,620 - INFO - Received /status request
+2025-05-14 11:54:29,616 - INFO - Received /status request
+2025-05-14 11:54:33,741 - INFO - Received /status request
+2025-05-14 11:54:39,621 - INFO - Received /status request
+2025-05-14 11:54:44,609 - INFO - Received /status request
+2025-05-14 11:54:49,615 - INFO - Received /status request
+2025-05-14 11:54:53,726 - INFO - home: ROC=0.56, SOC=66.63979999999998
+2025-05-14 11:54:53,728 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:54:53,730 - INFO - optimum home bat ROC = 0.5671234000000003
+2025-05-14 11:54:54,619 - INFO - Received /status request
+2025-05-14 11:54:59,664 - INFO - Received /status request
+2025-05-14 11:55:04,621 - INFO - Received /status request
+2025-05-14 11:55:09,615 - INFO - Received /status request
+2025-05-14 11:55:14,617 - INFO - Received /status request
+2025-05-14 11:55:19,611 - INFO - Received /status request
+2025-05-14 11:55:24,624 - INFO - Received /status request
+2025-05-14 11:55:29,614 - INFO - Received /status request
+2025-05-14 11:56:07,817 - WARNING - Starting Energy Manager
+2025-05-14 11:56:17,611 - INFO - Received /status request
+2025-05-14 11:56:22,855 - INFO - Received /status request
+2025-05-14 11:56:23,746 - INFO - Received /status request
+2025-05-14 11:56:25,043 - INFO - Received /status request
+2025-05-14 11:56:25,063 - INFO - Received /get mode request
+2025-05-14 11:56:30,062 - INFO - Received /status request
+2025-05-14 11:56:35,044 - INFO - Received /status request
+2025-05-14 11:56:40,049 - INFO - Received /status request
+2025-05-14 11:56:45,046 - INFO - Received /status request
+2025-05-14 11:56:50,049 - INFO - Received /status request
+2025-05-14 11:56:55,616 - INFO - Received /status request
+2025-05-14 11:57:00,616 - INFO - Received /status request
+2025-05-14 11:57:05,611 - INFO - Received /status request
+2025-05-14 11:57:10,614 - INFO - Received /status request
+2025-05-14 11:57:15,616 - INFO - Received /status request
+2025-05-14 11:57:20,614 - INFO - Received /status request
+2025-05-14 11:57:25,607 - INFO - Received /status request
+2025-05-14 11:57:30,663 - INFO - Received /status request
+2025-05-14 11:57:35,623 - INFO - Received /status request
+2025-05-14 11:57:40,610 - INFO - Received /status request
+2025-05-14 11:57:44,486 - INFO - New Charging Mode = solar
+2025-05-14 11:57:44,488 - INFO - home: ROC=0.429, SOC=66.75770000000006
+2025-05-14 11:57:44,491 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:57:44,494 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 11:57:44,496 - INFO - optimum home bat ROC = 0.5651190999999991
+2025-05-14 11:57:45,511 - DEBUG - New charging rate set to 12 A
+2025-05-14 11:57:45,516 - INFO - New charging rate set to 2.88 kW
+2025-05-14 11:57:45,613 - INFO - Received /status request
+2025-05-14 11:57:50,613 - INFO - Received /status request
+2025-05-14 11:58:17,613 - INFO - Received /status request
+2025-05-14 11:59:15,520 - INFO - home: ROC=0.4365, SOC=66.87560000000002
+2025-05-14 11:59:15,521 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 11:59:15,522 - INFO - optimum home bat ROC = 0.5631147999999996
+2025-05-14 11:59:17,608 - INFO - Received /status request
+2025-05-14 12:00:17,621 - INFO - Received /status request
+2025-05-14 12:00:45,525 - INFO - home: ROC=0.8285, SOC=66.99349999999998
+2025-05-14 12:00:45,526 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 12:00:45,527 - INFO - optimum home bat ROC = 0.6412691428571432
+2025-05-14 12:00:46,389 - DEBUG - New charging rate set to 13 A
+2025-05-14 12:00:46,389 - INFO - New charging rate set to 3.12 kW
+2025-05-14 12:01:17,601 - INFO - Received /status request
+2025-05-14 12:01:28,929 - INFO - Received /status request
+2025-05-14 12:01:30,034 - INFO - Received /status request
+2025-05-14 12:01:35,606 - INFO - Received /status request
+2025-05-14 12:01:40,607 - INFO - Received /status request
+2025-05-14 12:01:45,612 - INFO - Received /status request
+2025-05-14 12:01:50,615 - INFO - Received /status request
+2025-05-14 12:01:56,346 - INFO - Received /status request
+2025-05-14 12:02:00,598 - INFO - Received /status request
+2025-05-14 12:02:05,630 - INFO - Received /status request
+2025-05-14 12:02:10,599 - INFO - Received /status request
+2025-05-14 12:02:15,045 - INFO - Received /status request
+2025-05-14 12:02:16,392 - INFO - home: ROC=1.037, SOC=67.22930000000002
+2025-05-14 12:02:16,393 - INFO - car : ROC=2.88, Status = charging
+2025-05-14 12:02:16,395 - INFO - optimum home bat ROC = 0.6366878857142853
+2025-05-14 12:02:17,244 - DEBUG - New charging rate set to 14 A
+2025-05-14 12:02:17,245 - INFO - New charging rate set to 3.36 kW
+2025-05-14 12:02:20,028 - INFO - Received /status request
+2025-05-14 12:02:25,042 - INFO - Received /status request
+2025-05-14 12:02:30,038 - INFO - Received /status request
+2025-05-14 12:02:35,048 - INFO - Received /status request
+2025-05-14 12:02:40,395 - INFO - Received /status request
+2025-05-14 12:02:45,037 - INFO - Received /status request
+2025-05-14 12:02:50,069 - INFO - Received /status request
+2025-05-14 12:02:55,607 - INFO - Received /status request
+2025-05-14 12:03:00,610 - INFO - Received /status request
+2025-05-14 12:03:05,606 - INFO - Received /status request
+2025-05-14 12:03:10,604 - INFO - Received /status request
+2025-05-14 12:03:15,594 - INFO - Received /status request
+2025-05-14 12:03:20,706 - INFO - Received /status request
+2025-05-14 12:03:25,592 - INFO - Received /status request
+2025-05-14 12:03:30,607 - INFO - Received /status request
+2025-05-14 12:03:35,605 - INFO - Received /status request
+2025-05-14 12:03:40,612 - INFO - Received /status request
+2025-05-14 12:03:45,604 - INFO - Received /status request
+2025-05-14 12:03:47,247 - INFO - home: ROC=0.685, SOC=67.34719999999999
+2025-05-14 12:03:47,248 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 12:03:47,249 - INFO - optimum home bat ROC = 0.6343972571428573
+2025-05-14 12:03:48,062 - DEBUG - New charging rate set to 13 A
+2025-05-14 12:03:48,065 - INFO - New charging rate set to 3.12 kW
+2025-05-14 12:03:50,593 - INFO - Received /status request
+2025-05-14 12:04:17,604 - INFO - Received /status request
+2025-05-14 12:05:17,604 - INFO - Received /status request
+2025-05-14 12:05:18,070 - INFO - home: ROC=0.448, SOC=67.46510000000006
+2025-05-14 12:05:18,072 - INFO - car : ROC=3.36, Status = charging
+2025-05-14 12:05:18,077 - INFO - optimum home bat ROC = 0.6321066285714273
+2025-05-14 12:06:17,605 - INFO - Received /status request
+2025-05-14 12:06:48,083 - INFO - home: ROC=0.716, SOC=67.58300000000003
+2025-05-14 12:06:48,086 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 12:06:48,090 - INFO - optimum home bat ROC = 0.6298159999999994
+2025-05-14 12:07:17,598 - INFO - Received /status request
+2025-05-14 12:07:28,873 - INFO - Received /status request
+2025-05-14 12:07:31,021 - INFO - Received /status request
+2025-05-14 12:07:35,586 - INFO - Received /status request
+2025-05-14 12:07:40,590 - INFO - Received /status request
+2025-05-14 12:07:45,590 - INFO - Received /status request
+2025-05-14 12:07:50,643 - INFO - Received /status request
+2025-05-14 12:07:55,589 - INFO - Received /status request
+2025-05-14 12:08:00,612 - INFO - Received /status request
+2025-05-14 12:08:05,584 - INFO - Received /status request
+2025-05-14 12:08:10,590 - INFO - Received /status request
+2025-05-14 12:08:15,582 - INFO - Received /status request
+2025-05-14 12:08:18,095 - INFO - home: ROC=0.69, SOC=67.70089999999999
+2025-05-14 12:08:18,096 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 12:08:18,102 - INFO - optimum home bat ROC = 0.6275253714285717
+2025-05-14 12:08:20,593 - INFO - Received /status request
+2025-05-14 12:08:26,147 - WARNING - Starting Energy Manager
+2025-05-14 12:08:26,369 - INFO - Received /status request
+2025-05-14 12:08:30,584 - INFO - Received /status request
+2025-05-14 12:08:47,266 - INFO - Received /status request
+2025-05-14 12:08:50,019 - INFO - Received /status request
+2025-05-14 12:08:52,738 - INFO - Received /status request
+2025-05-14 12:08:52,745 - INFO - Received /get mode request
+2025-05-14 12:08:56,717 - INFO - Received /status request
+2025-05-14 12:09:01,722 - INFO - Received /status request
+2025-05-14 12:09:06,711 - INFO - Received /status request
+2025-05-14 12:09:11,713 - INFO - Received /status request
+2025-05-14 12:09:16,744 - INFO - Received /status request
+2025-05-14 12:09:22,586 - INFO - Received /status request
+2025-05-14 12:09:27,585 - INFO - Received /status request
+2025-05-14 12:09:32,589 - INFO - Received /status request
+2025-05-14 12:09:37,596 - INFO - Received /status request
+2025-05-14 12:09:42,600 - INFO - Received /status request
+2025-05-14 12:09:47,618 - INFO - Received /status request
+2025-05-14 12:09:54,705 - WARNING - Starting Energy Manager
+2025-05-14 12:09:56,719 - INFO - Received /status request
+2025-05-14 12:10:00,300 - INFO - Received /status request
+2025-05-14 12:10:00,302 - INFO - Received /get mode request
+2025-05-14 12:10:05,230 - INFO - Received /status request
+2025-05-14 12:10:10,224 - INFO - Received /status request
+2025-05-14 12:10:15,230 - INFO - Received /status request
+2025-05-14 12:10:20,600 - INFO - Received /status request
+2025-05-14 12:10:25,597 - INFO - Received /status request
+2025-05-14 12:10:30,634 - INFO - Received /status request
+2025-05-14 12:10:35,589 - INFO - Received /status request
+2025-05-14 12:10:40,609 - INFO - Received /status request
+2025-05-14 12:10:45,587 - INFO - Received /status request
+2025-05-14 12:10:50,596 - INFO - Received /status request
+2025-05-14 12:10:55,578 - INFO - Received /status request
+2025-05-14 12:11:00,607 - INFO - Received /status request
+2025-05-14 12:11:05,582 - INFO - Received /status request
+2025-05-14 12:11:10,586 - INFO - Received /status request
+2025-05-14 12:11:17,589 - INFO - Received /status request
+2025-05-14 12:11:30,316 - INFO - New Charging Mode = solar
+2025-05-14 12:11:30,318 - INFO - home: ROC=0.6575, SOC=68.0546
+2025-05-14 12:11:30,318 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 12:11:30,319 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 12:11:30,321 - INFO - optimum home bat ROC = 0.6206534857142857
+2025-05-14 12:11:32,773 - DEBUG - New charging rate set to 13 A
+2025-05-14 12:11:32,774 - INFO - New charging rate set to 3.12 kW
+2025-05-14 12:12:17,585 - INFO - Received /status request
+2025-05-14 12:13:02,776 - INFO - home: ROC=0.6215, SOC=68.17249999999996
+2025-05-14 12:13:02,777 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 12:13:02,779 - INFO - optimum home bat ROC = 0.618362857142858
+2025-05-14 12:13:17,985 - INFO - Received /status request
+2025-05-14 12:13:54,219 - WARNING - Starting Energy Manager
+2025-05-14 12:14:17,579 - INFO - Received /status request
+2025-05-14 12:14:22,458 - INFO - Received /status request
+2025-05-14 12:14:25,227 - INFO - Received /status request
+2025-05-14 12:14:25,691 - INFO - Received /status request
+2025-05-14 12:14:25,693 - INFO - Received /get mode request
+2025-05-14 12:14:30,654 - INFO - Received /status request
+2025-05-14 12:14:35,660 - INFO - Received /status request
+2025-05-14 12:14:41,581 - INFO - Received /status request
+2025-05-14 12:14:46,575 - INFO - Received /status request
+2025-05-14 12:14:51,834 - INFO - Received /status request
+2025-05-14 12:14:56,577 - INFO - Received /status request
+2025-05-14 12:15:01,578 - INFO - Received /status request
+2025-05-14 12:15:06,576 - INFO - Received /status request
+2025-05-14 12:15:11,818 - INFO - Received /status request
+2025-05-14 12:15:16,580 - INFO - Received /status request
+2025-05-14 12:15:23,276 - WARNING - Starting Energy Manager
+2025-05-14 12:15:23,677 - INFO - Received /status request
+2025-05-14 12:15:26,423 - INFO - Received /status request
+2025-05-14 12:15:28,626 - INFO - Received /status request
+2025-05-14 12:15:28,629 - INFO - Received /get mode request
+2025-05-14 12:15:33,592 - INFO - Received /status request
+2025-05-14 12:15:38,596 - INFO - Received /status request
+2025-05-14 12:15:43,589 - INFO - Received /status request
+2025-05-14 12:15:48,587 - INFO - Received /status request
+2025-05-14 12:15:53,606 - INFO - Received /status request
+2025-05-14 12:15:58,593 - INFO - Received /status request
+2025-05-14 12:16:03,591 - INFO - Received /status request
+2025-05-14 12:16:08,592 - INFO - Received /status request
+2025-05-14 12:16:13,587 - INFO - Received /status request
+2025-05-14 12:16:18,588 - INFO - Received /status request
+2025-05-14 12:16:24,572 - INFO - Received /status request
+2025-05-14 12:16:28,587 - INFO - Received /status request
+2025-05-14 12:16:33,584 - INFO - Received /status request
+2025-05-14 12:16:38,580 - INFO - Received /status request
+2025-05-14 12:16:43,630 - INFO - Received /status request
+2025-05-14 12:16:49,639 - INFO - Received /status request
+2025-05-14 12:16:54,579 - INFO - Received /status request
+2025-05-14 12:16:59,153 - INFO - New Charging Mode = solar
+2025-05-14 12:16:59,156 - INFO - home: ROC=0.766, SOC=68.52619999999996
+2025-05-14 12:16:59,159 - INFO - car : ROC=3.12, Status = charging
+2025-05-14 12:16:59,161 - INFO - Transitioning to state: day-not_full-charging (mode: solar)
+2025-05-14 12:16:59,162 - INFO - optimum home bat ROC = 0.6114909714285722
+2025-05-14 12:16:59,607 - INFO - Received /status request
+2025-05-14 12:17:00,020 - DEBUG - New charging rate set to 14 A
+2025-05-14 12:17:00,022 - INFO - New charging rate set to 3.36 kW
+2025-05-14 12:17:04,579 - INFO - Received /status request
+2025-05-14 12:17:08,623 - INFO - Received /status request
+2025-05-14 12:17:14,663 - INFO - Received /status request
+2025-05-14 12:17:18,600 - INFO - Received /status request
+2025-05-14 12:17:24,578 - INFO - Received /status request
+2025-05-14 12:17:28,588 - INFO - Received /status request
+2025-05-14 12:17:34,576 - INFO - Received /status request
+2025-05-14 12:17:39,580 - INFO - Received /status request

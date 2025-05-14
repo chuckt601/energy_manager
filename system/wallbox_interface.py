@@ -72,20 +72,19 @@ class WallboxCharger:
     def get_latest_data(self):
         return self.latest_data  
 
-    def set_new_charging_rate(self, new_charging_rate):
-        #internal to this routine we will use AMPS
-        new_charging_rate=new_charging_rate*1000/240
-        
+    def set_new_charging_rate(self, new_charging_rate):     
         if new_charging_rate > config.CAR_CHARGE_RATE_MAX:
             new_charging_rate = config.CAR_CHARGE_RATE_MAX
         elif new_charging_rate < config.CAR_CHARGE_RATE_MIN:
             new_charging_rate = config.CAR_CHARGE_RATE_MIN  
+        #internal to this routine we will use AMPS
+        new_charging_rate=round(new_charging_rate*1000/240)    
         if new_charging_rate != self.old_charging_rate:
              self.old_charging_rate=new_charging_rate       
              try:
                  self.wallbox.setMaxChargingCurrent(config.WALLBOX_CHARGER_ID, new_charging_rate)
-                 self.logger.debug(f"New charging rate set to {new_charging_rate/1000*240} A")
-                 self.logger.info(f"New charging rate set to {new_charging_rate} kW")
+                 self.logger.debug(f"New charging rate set to {new_charging_rate} A")
+                 self.logger.info(f"New charging rate set to {new_charging_rate*240/1000} kW")
              except requests.exceptions.HTTPError as e:
                  self.logger.error(f"Error setting new charging rate: {e}") 
 

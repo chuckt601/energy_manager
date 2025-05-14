@@ -4,87 +4,152 @@
   <meta charset="UTF-8">
   <title>Energy Manager Dashboard</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1 { color: #2c3e50; }
-    .data-box { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 8px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .container {
+      display: grid;
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .data-box {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #3498db;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    pre {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
   </style>
 </head>
 <body>
   <h1>Energy Manager Dashboard</h1>
-  <div class="data-box">
-    <h2>Charging Mode</h2>
-    <button onclick="setMode('solar')">Solar Only</button>
-    <button onclick="setMode('solar_and_night')">Solar + Night</button>
-    <button onclick="setMode('manual')">Manual</button>
-    <p>Current mode: <span id="charging-mode">Loading...</span></p>
+  <div class="container">
+    <div class="data-box">
+      <h2>Charging Mode</h2>
+      <button onclick="setMode('solar')">Solar Only</button>
+      <button onclick="setMode('solar_and_night')">Solar + Night</button>
+      <button onclick="setMode('manual')">Manual</button>
+      <p>Current mode: <span id="charging-mode">Loading...</span></p>
+    </div>
+
+    <div class="data-box">
+      <h2>Home Power Status</h2>
+      <p><span class="label">SOC:</span> <span id="can-soc">--</span>%</p>
+      <p><span class="label">ROC:</span> <span id="can-home_battery_charge_rate">--</span> kW</p>
+      <!-- <pre id="can-data">Loading...</pre> --> 
+    </div>
+
+    <div class="data-box">
+      <h2>Car Charger Status</h2>
+      <p><span class="label">Status:</span> <span id="Car-status">--</span></p>
+      <p><span class="label">Status Code:</span> <span id="Car-status-id">--</span></p>
+      <p><span class="label">ROC:</span> <span id="Car-ROC">--</span> kW</p>
+      <!-- <pre id="wallbox-data">Loading...</pre> --> 
+    </div>
+
+    <div class="data-box">
+      <h2>Status</h2>
+      <p id="connection-status" style="font-weight: bold;">Connecting...</p>
+      <p id="last-updated">Last updated: never</p> 
+    </div>
   </div>
-  <div class="data-box">
-    <h2>CAN Data</h2>
-    <pre id="can-data">Loading...</pre>
-  </div>
 
-  <div class="data-box">
-    <h2>Wallbox Data</h2>
-    <pre id="wallbox-data">Loading...</pre>
-  </div>
-
-  <div class="data-box" style="background-color: #f9f9f9;">
-    <h2>Status</h2>
-    <p id="connection-status">Connecting...</p>
-    <p id="last-updated">Last updated: never</p>
-  </div>
-
-<script>
-  function formatTimestamp(date) {
-    return date.toLocaleString(); // You can customize the format if needed
-  }
-  async function fetchData() {
-    try {
-      const response = await fetch("/status");
-      if (!response.ok) throw new Error("Server error");
-
-      const data = await response.json();
-      //console.log("Fetched data:", data);
-
-      document.getElementById("can-data").innerText = JSON.stringify(data.can, null, 2);
-      document.getElementById("wallbox-data").innerText = JSON.stringify(data.wallbox, null, 2);
-
-      document.getElementById("connection-status").innerText = "Connected";
-      document.getElementById("connection-status").style.color = "green";
-      const now = new Date();
-      document.getElementById("last-updated").innerText = `Last updated: ${formatTimestamp(now)}`;
-    } catch (err) {
-      console.error("Failed to fetch data:", err);
-      document.getElementById("connection-status").innerText = "Disconnected";
-      document.getElementById("connection-status").style.color = "red";
+  <script>
+    function formatTimestamp(date) {
+      return date.toLocaleString();
     }
-  }
-  async function setMode(mode) {
-    await fetch("/set_mode", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ mode })
+
+    async function fetchData() {
+      try {
+        const response = await fetch("/status");
+        if (!response.ok) throw new Error("Server error");
+
+        const data = await response.json();
+        // CAN data
+        const home_soc = data.can?.soc?.toFixed(1) ?? '--';
+        const home_battery_charge_rate = data.can?.home_battery_charge_rate?.toFixed(1) ?? '--';
+        document.getElementById("can-soc").innerText = home_soc;
+        document.getElementById("can-home_battery_charge_rate").innerText = home_battery_charge_rate;
+
+
+        // Wallbox data
+        const charger_status = data.wallbox?.car_charger_status ?? '--';
+        const charger_status_id = data.wallbox?.car_charger_status_code?.toFixed(0) ?? '--';
+        const ROC = data.wallbox?.current_car_charging_rate?.toFixed(2) ?? '--';
+        let car_roc = ROC;
+        if (charger_status !== "CHARGING") {
+          car_roc = 0;
+        }
+
+
+        document.getElementById("Car-status").innerText = charger_status;
+        document.getElementById("Car-status-id").innerText = charger_status_id;
+        document.getElementById("Car-ROC").innerText = car_roc;
+        //document.getElementById("can-data").innerText = JSON.stringify(data.can, null, 2);
+        //document.getElementById("wallbox-data").innerText = JSON.stringify(data.wallbox, null, 2);
+
+
+        document.getElementById("connection-status").innerText = "Connected";
+        document.getElementById("connection-status").style.color = "green";
+        const now = new Date();
+        document.getElementById("last-updated").innerText = `Last updated: ${formatTimestamp(now)}`;
+
+      } catch (err) {
+        console.error("Failed to fetch data:", err);
+        document.getElementById("connection-status").innerText = "Disconnected";
+        document.getElementById("connection-status").style.color = "red";
+        console.log("Raw response:", await response.text());
+      }
+    }
+
+    async function setMode(mode) {
+      await fetch("/set_mode", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ mode })
+      });
+      fetchMode();
+    }
+
+    async function fetchMode() {
+      const response = await fetch("/get_mode");
+      const data = await response.json();
+      document.getElementById("charging-mode").innerText = data.mode;
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      fetchData();
+      fetchMode();
+      setInterval(fetchData, 5000);
     });
-    fetchMode();  // Refresh displayed mode
-  }
-
-  async function fetchMode() {
-    const response = await fetch("/get_mode");
-    const data = await response.json();
-    document.getElementById("charging-mode").innerText = data.mode;
-  }
-
-  window.addEventListener('DOMContentLoaded', () => {
-    fetchMode();
-  });
-
-  window.addEventListener('DOMContentLoaded', () => {
-    fetchData(); // initial call
-    setInterval(fetchData, 5000); // update every 5 seconds
-  });
-</script>
-
+  </script>
 </body>
 </html>
-
-

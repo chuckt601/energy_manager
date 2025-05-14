@@ -154,13 +154,6 @@ class EnergyManager:
                              return
                         return     
                            
-                             
-                    
-                                
-             
-             
-            
-
     def start_charging(self):
         #self.logger.info("Command: START charging")
         # call wallbox.start_charging() or send CAN command here
