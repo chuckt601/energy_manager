@@ -67,7 +67,7 @@ class WallboxCharger:
                 #self.logger.info(f"Wallbox status: {self.status}")
             except requests.exceptions.HTTPError as e:
                 self.logger.error(f"Wallbox error: {e}")
-            time.sleep(10)
+            time.sleep(30)
 
     def get_latest_data(self):
         return self.latest_data  
@@ -87,6 +87,8 @@ class WallboxCharger:
                  self.logger.info(f"New charging rate set to {new_charging_rate*240/1000} kW")
              except requests.exceptions.HTTPError as e:
                  self.logger.error(f"Error setting new charging rate: {e}") 
+                 self.authenticate()
+                 self.wallbox.setMaxChargingCurrent(config.WALLBOX_CHARGER_ID, new_charging_rate)
 
     def pause_charging(self):        
         try:
@@ -95,6 +97,8 @@ class WallboxCharger:
                  self.logger.info("Charging paused")
         except requests.exceptions.HTTPError as e:
             self.logger.error(f"Error pausing charging: {e}")
+            self.authenticate()
+            self.wallbox.pauseChargingSession(config.WALLBOX_CHARGER_ID)
 
     def resume_charging(self):
         try:
@@ -104,6 +108,7 @@ class WallboxCharger:
                 return   
                        
         except requests.exceptions.HTTPError as e:
-            self.logger.error(f"Error resuming charging: {e}")        
-
+            self.logger.error(f"Error resuming charging: {e}") 
+            self.authenticate()       
+            self.wallbox.resumeChargingSession(config.WALLBOX_CHARGER_ID) 
         

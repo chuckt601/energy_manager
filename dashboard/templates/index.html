@@ -48,17 +48,32 @@
       overflow-x: auto;
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
   <h1>Energy Manager Dashboard</h1>
+  
   <div class="container">
     <div class="data-box">
       <h2>Charging Mode</h2>
       <button onclick="setMode('solar')">Solar Only</button>
       <button onclick="setMode('solar_and_night')">Solar + Night</button>
       <button onclick="setMode('manual')">Manual</button>
+      <button onclick="manualUpdate()">Manual Refresh</button>
       <p>Current mode: <span id="charging-mode">Loading...</span></p>
     </div>
+    <div class="data-box">
+      <h2>Status</h2>
+      <p id="connection-status" style="font-weight: bold;">Connecting...</p>
+      <p id="last-updated">Last updated: never</p> 
+    </div>
+    <div class="data-box">
+      <h2>Charge Rate Over Time</h2>
+      <canvas id="chargeRateChart" height="100"></canvas>
+    </div>
+    
+    
 
     <div class="data-box">
       <h2>Home Power Status</h2>
@@ -75,16 +90,19 @@
       <!-- <pre id="wallbox-data">Loading...</pre> --> 
     </div>
 
-    <div class="data-box">
-      <h2>Status</h2>
-      <p id="connection-status" style="font-weight: bold;">Connecting...</p>
-      <p id="last-updated">Last updated: never</p> 
-    </div>
+    
   </div>
+  
+
+
 
   <script>
     function formatTimestamp(date) {
       return date.toLocaleString();
+    }
+    function manualUpdate() {
+      fetchData();
+      loadChartHistory();
     }
 
     async function fetchData() {
@@ -121,6 +139,20 @@
         document.getElementById("connection-status").style.color = "green";
         const now = new Date();
         document.getElementById("last-updated").innerText = `Last updated: ${formatTimestamp(now)}`;
+        const timestamp = new Date().toLocaleTimeString();
+       // if (!isNaN(home_battery_charge_rate) && !isNaN(car_roc)) {
+         // chartData.labels.push(timestamp);
+         // chartData.datasets[0].data.push(parseFloat(home_battery_charge_rate));
+         // chartData.datasets[1].data.push(parseFloat(car_roc));
+
+        // Keep only last 20 points
+         // if (chartData.labels.length > 2800) {
+         //   chartData.labels.shift();
+         //   chartData.datasets[0].data.shift();
+         //   chartData.datasets[1].data.shift();
+         // }
+          //chargeRateChart.update();
+        //}  
 
       } catch (err) {
         console.error("Failed to fetch data:", err);
@@ -145,10 +177,80 @@
       document.getElementById("charging-mode").innerText = data.mode;
     }
 
+    async function loadChartHistory() {
+      const res = await fetch("/log_data");
+      const data = await res.json();
+
+      chartData.labels = [];
+      chartData.datasets[0].data = [];
+      chartData.datasets[1].data = [];
+      chartData.datasets[2].data = [];
+
+      data.forEach(row => {
+        chartData.labels.push(new Date(row.timestamp).toLocaleTimeString());
+        chartData.datasets[0].data.push(parseFloat(row.can_home_battery_charge_rate));
+        chartData.datasets[1].data.push(parseFloat(row.car_roc));
+        chartData.datasets[2].data.push(parseFloat(row.elevation));
+      });
+
+      chargeRateChart.update();
+    }
+
+    const chargeRateChartCtx = document.getElementById('chargeRateChart').getContext('2d');
+
+    const chartData = {
+      labels: [], // timestamps
+      datasets: [
+        {
+          label: 'Home Battery Charge Rate (kW)',
+          data: [],
+          borderColor: '#27ae60',
+          backgroundColor: 'rgba(39, 174, 96, 0.2)',
+          fill: true,
+          tension: 0.3,
+        },
+        {
+          label: 'Car Charging Rate (kW)',
+          data: [],
+          borderColor: '#e67e22',
+          backgroundColor: 'rgba(230, 126, 34, 0.2)',
+          fill: true,
+          tension: 0.3,
+        },
+        {
+          label: 'Sun Elevation (Rad from horizon)',
+          data: [],
+          borderColor: '#3498db',
+          backgroundColor: 'rgba(52, 152, 219, 0.2)',
+          fill: false,
+          tension: 0.3,
+          pointRadius: 0,                  
+        }        
+      ]
+    };
+
+    const chargeRateChart = new Chart(chargeRateChartCtx, {
+      type: 'line',
+      data: chartData,
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'top' },
+        },
+        scales: {
+          x: { title: { display: true, text: 'Time' } },
+          y: { title: { display: true, text: 'kW' }, beginAtZero: true }
+        }
+      }
+    });
+
+
     window.addEventListener('DOMContentLoaded', () => {
+      loadChartHistory();   // Load past data
       fetchData();
       fetchMode();
-      setInterval(fetchData, 5000);
+      //setInterval(fetchData, 5000);
+      //setInterval(loadChartHistory, 90000);
     });
   </script>
 </body>

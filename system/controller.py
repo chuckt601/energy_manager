@@ -1,6 +1,10 @@
-from datetime import datetime
+from datetime import datetime, date
 import config
 #from system.wallbox_interface import WallboxCharger
+from astral import LocationInfo
+from astral.sun import sun
+from astral import sun as astral_sun
+import pytz
 
 class EnergyManager:
     def __init__(self, can_data, wallbox_data, wallbox, charging_mode, logger):
@@ -14,7 +18,8 @@ class EnergyManager:
         self.car_ROC_KW = 0.0
         self.last_state = None
         self.last_charging_mode="None"
-        self.time_of_day_preiod="None"
+        self.time_of_day_preiod="None"          
+        self.elevation=0.0 # degrees
 
     def check_charging_mode(self):
         if self.charging_mode.value != self.last_charging_mode:
@@ -22,13 +27,34 @@ class EnergyManager:
             self.logger.info(f"New Charging Mode = {self.last_charging_mode}")
 
     def get_time_period(self):
-        hour = datetime.now().hour
-        if config.START_OF_DAY <= hour < config.END_OF_DAY:
-            return "day"
-        elif config.END_OF_DAY <= hour < config.START_OF_NIGHT:
-            return "evening"
+        city = LocationInfo(config.CITY, "USA", config.LOCAL_TZ, 37.27043, -121.80013)
+        now = datetime.now(pytz.timezone(config.LOCAL_TZ))
+        hour = now.hour
+        #self.logger.debug(f"now={now}")
+        #s = sun(city.observer, date=date.today(), tzinfo=city.timezone)
+        #self.logger.debug(f"Sunrise: {s['sunrise'].strftime('%H:%M:%S')}")
+        #self.logger.debug(f"Sunset:  {s['sunset'].strftime('%H:%M:%S')}")
+        #sunset_hour=s['sunset'].hour
+        #sunrise_hour=s['sunrise'].hour
+
+        self.elevation = astral_sun.elevation(city.observer, now)
+        self.logger.debug(f"solar elevation = {self.elevation}")
+        #self.logger.debug(f"sunset hour = {sunset_hour}")
+        #self.logger.debug(f"now hour = {hour}")
+
+        if hour<12 and self.elevation<config.ELEVATION_MIN:
+            return 'night'
+        elif self.elevation>config.ELEVATION_MIN:
+            return 'day'
         else:
-            return "night"
+            return 'evening'            
+
+        #if config.START_OF_DAY <= hour < config.END_OF_DAY:
+        #    return "day"
+        #elif config.END_OF_DAY <= hour < config.START_OF_NIGHT:
+        #    return "evening"
+        #else:
+        #    return "night"
 
     def get_SOC(self):
         return float(self.can_data.get("soc", 0))    
@@ -59,7 +85,9 @@ class EnergyManager:
     def get_charging_status(self):
         return "charging" if self.wallbox_data.get("car_charger_status") == "CHARGING" else "idle"
 
-    def evaluate(self):        
+    def evaluate(self): 
+        
+             
         self.SOC = self.get_SOC()
         self.home_ROC_KW = self.get_home_ROC()
         self.car_ROC_KW = self.get_car_ROC()
@@ -74,7 +102,7 @@ class EnergyManager:
         self.logger.info(f"car : ROC={self.car_ROC_KW}, Status = {charging_status}")
 
         if current_state != self.last_state:
-            self.logger.info(f"Transitioning to state: {current_state} (mode: {self.charging_mode.value})")
+            #self.logger.info(f"Transitioning to state: {current_state} (mode: {self.charging_mode.value})")
             self.last_state = current_state
 
         # FSM logic depending on mode
@@ -164,6 +192,14 @@ class EnergyManager:
 
     def set_charging_rate(self,new_rate):
         self.wallbox.set_new_charging_rate(new_rate)
+
+    def get_elevation(self):
+        return self.elevation    
+
+ 
+
+
+
         
           
-        # call wallbox.stop_charging() or send CAN command here
+      
